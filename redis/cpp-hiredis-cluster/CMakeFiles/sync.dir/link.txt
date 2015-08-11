@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x    CMakeFiles/sync.dir/src/examples/example.cpp.o  -o bin/sync -rdynamic -Wl,-Bstatic -lhiredis -Wl,-Bdynamic 

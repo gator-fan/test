@@ -1,0 +1,6 @@
+/home/fanwang/test/redis/cpp-hiredis-cluster/CMakeFiles/async.dir
+/home/fanwang/test/redis/cpp-hiredis-cluster/CMakeFiles/asyncerr.dir
+/home/fanwang/test/redis/cpp-hiredis-cluster/CMakeFiles/sync.dir
+/home/fanwang/test/redis/cpp-hiredis-cluster/CMakeFiles/testing.dir
+/home/fanwang/test/redis/cpp-hiredis-cluster/CMakeFiles/threadedpool.dir
+/home/fanwang/test/redis/cpp-hiredis-cluster/CMakeFiles/unix.dir

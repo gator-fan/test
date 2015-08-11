@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC = g++$/;"	m
+CFLAGS	makefile	/^CFLAGS = -march=core2 -Wall -O3 -g$/;"	m
+CreateThread	spider.c	/^int CreateThread(void *(*start_routine) (void *), void *arg, pthread_t * thread,$/;"	f
+Ev_arg	http.h	/^} Ev_arg;$/;"	t	typeref:struct:__anon2
+MAX_LINK_LEN	url.h	9;"	d
+MAX_QUEUE_SIZE	spider.c	7;"	d	file:
+MAX_URLDOMAIN_NUM	bloom.h	19;"	d
+MAX_URLPATH_NUM	bloom.h	18;"	d
+Url	url.h	/^} Url;$/;"	t	typeref:struct:__anon3
+_BLOOM_H	bloom.h	2;"	d
+_DNS_H	dns.h	2;"	d
+_HTTP_H	http.h	2;"	d
+_URL_H	url.h	2;"	d
+addurl2queue	spider.c	/^void addurl2queue(Url * url)$/;"	f
+bb	dns.h	/^	struct event_base *bb;$/;"	m	struct:__anon1	typeref:struct:__anon1::event_base
+bloomDomain	bloom.h	/^int bloomDomain(char *domain)$/;"	f
+bloomPath	bloom.h	/^int bloomPath(char *path)$/;"	f
+buildConnect	http.h	/^int buildConnect(int *client_sockfd, char *ip)$/;"	f
+connect_pending	http.h	/^int connect_pending = 0;$/;"	v
+connlock	http.h	/^pthread_mutex_t connlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+d_table	bloom.h	/^int d_table[MAX_URLDOMAIN_NUM] = { 0 };$/;"	v
+dnsParse	dns.h	/^void dnsParse(Url ** ptr, int count)$/;"	f
+dns_callback	dns.h	/^void dns_callback(int errcode, struct evutil_addrinfo *addr, void *ptr)$/;"	f
+dns_cb_arg	dns.h	/^} dns_cb_arg;$/;"	t	typeref:struct:__anon1
+domain	url.h	/^	char *domain;$/;"	m	struct:__anon3
+dtlock	bloom.h	/^pthread_mutex_t dtlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+epfd	spider.c	/^int epfd;$/;"	v
+ev	spider.c	/^struct epoll_event ev, events[10];	\/\/ev用于注册事件，events数组用于回传要处理的事件$/;"	v	typeref:struct:epoll_event
+events	spider.c	/^struct epoll_event ev, events[10];	\/\/ev用于注册事件，events数组用于回传要处理的事件$/;"	v	typeref:struct:
+extractLink	url.h	/^int extractLink(char *buf, char *domain)$/;"	f
+fd	http.h	/^	int fd;$/;"	m	struct:__anon2
+freeUrl	url.h	/^void freeUrl(Url * url)$/;"	f
+getDepth	url.h	/^int getDepth(char *link)$/;"	f
+getHRfromlink	url.h	/^void getHRfromlink(char *link, char *host, char *resource)$/;"	f
+host_ip_map	spider.c	/^map < string, string > host_ip_map;$/;"	v
+ip	url.h	/^	char *ip;$/;"	m	struct:__anon3
+leftshift	url.h	/^int leftshift(char *buf)$/;"	f
+link2fn	url.h	/^char *link2fn(Url * arg)$/;"	f
+main	spider.c	/^int main(int argc, char *argv[])$/;"	f
+map_lock	spider.c	/^pthread_mutex_t map_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+myEncrypt	bloom.h	/^int myEncrypt(char *str, char *key)$/;"	f
+p_table	bloom.h	/^int p_table[MAX_URLPATH_NUM] = { 0 };$/;"	v
+patchlink	url.h	/^char *patchlink(char *link, char *domain)$/;"	f
+path	url.h	/^	char *path;$/;"	m	struct:__anon3
+pp	dns.h	/^	int *pp;$/;"	m	struct:__anon1
+pretreatLink	url.h	/^void pretreatLink(char *link)$/;"	f
+ptlock	bloom.h	/^pthread_mutex_t ptlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+putlinks2queue	spider.c	/^void putlinks2queue(char *links[], int count)$/;"	f
+queue_lock	spider.c	/^pthread_mutex_t queue_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+recvResponse	http.h	/^void *recvResponse(void *argument)$/;"	f
+sendRequest	http.h	/^int sendRequest(Url * url, int fd)$/;"	f
+setnoblocking	http.h	/^void setnoblocking(int sockfd)$/;"	f
+string	spider.c	/^map < string, string > host_ip_map;$/;"	v
+url	http.h	/^	Url *url;$/;"	m	struct:__anon2
+url_queue	spider.c	/^queue < Url * >url_queue;$/;"	v
+uu	dns.h	/^	Url *uu;$/;"	m	struct:__anon1

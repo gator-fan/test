@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x    CMakeFiles/unix.dir/src/examples/unixsocketexample.cpp.o  -o bin/unix -rdynamic -Wl,-Bstatic -lhiredis -Wl,-Bdynamic 

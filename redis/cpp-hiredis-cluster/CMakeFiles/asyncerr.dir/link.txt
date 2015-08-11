@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x    CMakeFiles/asyncerr.dir/src/examples/asyncerrorshandling.cpp.o  -o bin/asyncerr -rdynamic -lhiredis -levent -lrt -lpthread 

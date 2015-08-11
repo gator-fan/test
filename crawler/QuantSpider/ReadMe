@@ -1,0 +1,16 @@
+[Introduction]
+Quant Crawler in the future, but only simple version now to verify the basic functionalify
+of a crawler
+
+[Usage]
+To run this program, you just need change to the program directory,then:
+$ make clean
+$ make
+$ ./spider url1 url2 ...        (for example: ./spider www.ifeng.com www.baidu.com)
+
+[Plan To Do]
+1. add analysis html
+2. add finacial data
+
+[Bug Report]
+If any bug found,please report to fan_ufl_ericsson@163.com.

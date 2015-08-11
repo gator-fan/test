@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASK	include/asynchirediscommand.h	/^            ASK,$/;"	e	enum:RedisCluster::AsyncHiredisCommand::Action
+ASK	include/hiredisprocess.h	/^            ASK,$/;"	e	enum:RedisCluster::HiredisProcess::processState
+Action	include/asynchirediscommand.h	/^        enum Action$/;"	g	class:RedisCluster::AsyncHiredisCommand
+AskingFailedException	include/clusterexception.h	/^        AskingFailedException() : BadStateException( std::string("error while processing asking command") )$/;"	f	class:RedisCluster::AskingFailedException
+AskingFailedException	include/clusterexception.h	/^    class AskingFailedException : public BadStateException {$/;"	c	namespace:RedisCluster
+AsyncHiredisCommand	include/asynchirediscommand.h	/^        AsyncHiredisCommand( typename Cluster::ptr_t cluster_p,$/;"	f	class:RedisCluster::AsyncHiredisCommand
+AsyncHiredisCommand	include/asynchirediscommand.h	/^    class AsyncHiredisCommand : public NonCopyable$/;"	c	namespace:RedisCluster
+BadStateException	include/clusterexception.h	/^        BadStateException( const std::string &text) : ClusterException( text )$/;"	f	class:RedisCluster::BadStateException
+BadStateException	include/clusterexception.h	/^    class BadStateException : public ClusterException {$/;"	c	namespace:RedisCluster
+CLUSTERDOWN	include/hiredisprocess.h	/^            CLUSTERDOWN,$/;"	e	enum:RedisCluster::HiredisProcess::processState
+Cluster	include/cluster.h	/^        Cluster( redisReply *reply, pt2RedisConnectFunc connect, pt2RedisFreeFunc disconnect, void *conData ) :$/;"	f	class:RedisCluster::Cluster
+Cluster	include/cluster.h	/^    class Cluster : public NonCopyable {$/;"	c	namespace:RedisCluster
+ClusterDownException	include/clusterexception.h	/^        ClusterDownException() : CriticalException( std::string("cluster is going down") )$/;"	f	class:RedisCluster::ClusterDownException
+ClusterDownException	include/clusterexception.h	/^    class ClusterDownException : public CriticalException {$/;"	c	namespace:RedisCluster
+ClusterException	include/clusterexception.h	/^        ClusterException( const std::string &text) : runtime_error( text )$/;"	f	class:RedisCluster::ClusterException
+ClusterException	include/clusterexception.h	/^    class ClusterException : public std::runtime_error {$/;"	c	namespace:RedisCluster
+ClusterNodes	include/container.h	/^        typedef std::map <SlotRange, redisConnection*, typename RCluster::SlotComparator> ClusterNodes;$/;"	t	class:RedisCluster::DefaultContainer
+ClusterNodes	src/examples/threadpool.cpp	/^    typedef std::map <typename RCluster::SlotRange, ConPool*, typename RCluster::SlotComparator> ClusterNodes;$/;"	t	class:ThreadedPool	file:
+CmdInit	include/cluster.h	/^        inline static const char* CmdInit()$/;"	f	class:RedisCluster::Cluster
+Command	include/asynchirediscommand.h	/^        static inline AsyncHiredisCommand<Cluster>& Command( typename Cluster::ptr_t cluster_p,$/;"	f	class:RedisCluster::AsyncHiredisCommand
+Command	include/hirediscommand.h	/^        static inline void* Command( typename Cluster::ptr_t cluster_p,$/;"	f	class:RedisCluster::HiredisCommand
+CommandType	include/asynchirediscommand.h	/^        enum CommandType$/;"	g	class:RedisCluster::AsyncHiredisCommand
+CommandType	include/hirediscommand.h	/^        enum CommandType$/;"	g	class:RedisCluster::HiredisCommand
+ConPool	src/examples/threadpool.cpp	/^    typedef std::pair<std::condition_variable, ConQueue> ConPool;$/;"	t	class:ThreadedPool	file:
+ConQueue	src/examples/threadpool.cpp	/^    typedef std::queue<redisConnection*> ConQueue;$/;"	t	class:ThreadedPool	file:
+Connection	include/asynchirediscommand.h	/^        typedef redisAsyncContext Connection;$/;"	t	class:RedisCluster::AsyncHiredisCommand
+Connection	include/hirediscommand.h	/^        typedef redisContext Connection;$/;"	t	class:RedisCluster::HiredisCommand
+ConnectionFailedException	include/clusterexception.h	/^        ConnectionFailedException() : CriticalException( std::string("cluster connect failed: ") + strerror(errno) )$/;"	f	class:RedisCluster::ConnectionFailedException
+ConnectionFailedException	include/clusterexception.h	/^    class ConnectionFailedException : public CriticalException {$/;"	c	namespace:RedisCluster
+CriticalException	include/clusterexception.h	/^        CriticalException( const std::string &text) : ClusterException( text )$/;"	f	class:RedisCluster::CriticalException
+CriticalException	include/clusterexception.h	/^    class CriticalException : public ClusterException {$/;"	c	namespace:RedisCluster
+DefaultContainer	include/container.h	/^        DefaultContainer( typename RCluster::pt2RedisConnectFunc conn,$/;"	f	class:RedisCluster::DefaultContainer
+DefaultContainer	include/container.h	/^    class DefaultContainer$/;"	c	namespace:RedisCluster
+Disconnect	include/asynchirediscommand.h	/^        static void Disconnect(Connection *ac)$/;"	f	class:RedisCluster::AsyncHiredisCommand
+DisconnectedException	include/clusterexception.h	/^        DisconnectedException() : CriticalException( std::string("cluster host disconnected") )$/;"	f	class:RedisCluster::DisconnectedException
+DisconnectedException	include/clusterexception.h	/^    class DisconnectedException : public CriticalException {$/;"	c	namespace:RedisCluster
+FAILED	include/hiredisprocess.h	/^            FAILED$/;"	e	enum:RedisCluster::HiredisProcess::processState
+FINISH	include/asynchirediscommand.h	/^            FINISH,$/;"	e	enum:RedisCluster::AsyncHiredisCommand::Action
+FORMATTED_STRING	include/asynchirediscommand.h	/^            FORMATTED_STRING$/;"	e	enum:RedisCluster::AsyncHiredisCommand::CommandType
+FORMATTED_STRING	include/hirediscommand.h	/^            FORMATTED_STRING$/;"	e	enum:RedisCluster::HiredisCommand::CommandType
+HiredisCommand	include/hirediscommand.h	/^        HiredisCommand( typename Cluster::ptr_t cluster_p,$/;"	f	class:RedisCluster::HiredisCommand
+HiredisCommand	include/hirediscommand.h	/^    class HiredisCommand : public NonCopyable$/;"	c	namespace:RedisCluster
+HiredisProcess	include/hiredisprocess.h	/^    class HiredisProcess$/;"	c	namespace:RedisCluster
+Host	include/cluster.h	/^        typedef string Host;$/;"	t	class:RedisCluster::Cluster
+Host	include/container.h	/^        typedef typename RCluster::Host Host;$/;"	t	class:RedisCluster::DefaultContainer
+HostConnection	include/cluster.h	/^        typedef std::pair<Host, redisConnection*> HostConnection;$/;"	t	class:RedisCluster::Cluster
+HostConnection	src/examples/threadpool.cpp	/^    typedef typename RCluster::HostConnection HostConnection;$/;"	t	class:ThreadedPool	file:
+InvalidArgument	include/clusterexception.h	/^        InvalidArgument() : ClusterException( std::string("cluster invalid argument") )$/;"	f	class:RedisCluster::InvalidArgument
+InvalidArgument	include/clusterexception.h	/^    class InvalidArgument : public ClusterException {$/;"	c	namespace:RedisCluster
+LogicError	include/clusterexception.h	/^        LogicError( string reason ) : BadStateException( reason )$/;"	f	class:RedisCluster::LogicError
+LogicError	include/clusterexception.h	/^        LogicError() : BadStateException( std::string("cluster logic error") )$/;"	f	class:RedisCluster::LogicError
+LogicError	include/clusterexception.h	/^    class LogicError : public BadStateException {$/;"	c	namespace:RedisCluster
+MOVED	include/hiredisprocess.h	/^            MOVED,$/;"	e	enum:RedisCluster::HiredisProcess::processState
+MovedCb	include/cluster.h	/^        typedef void (*MovedCb) ( void*, Cluster<redisConnection, ConnectionContainer> & );$/;"	t	class:RedisCluster::Cluster
+MovedFailedException	include/clusterexception.h	/^        MovedFailedException() : BadStateException( std::string("error while processing asking command") )$/;"	f	class:RedisCluster::MovedFailedException
+MovedFailedException	include/clusterexception.h	/^    class MovedFailedException : public BadStateException {$/;"	c	namespace:RedisCluster
+NodeSearchException	include/clusterexception.h	/^        NodeSearchException() : BadStateException( std::string("node not found in cluster") )$/;"	f	class:RedisCluster::NodeSearchException
+NodeSearchException	include/clusterexception.h	/^    class NodeSearchException : public BadStateException {$/;"	c	namespace:RedisCluster
+NonCopyable	include/cluster.h	/^        NonCopyable() {}$/;"	f	class:RedisCluster::NonCopyable
+NonCopyable	include/cluster.h	/^    class NonCopyable$/;"	c	namespace:RedisCluster
+NotInitializedException	include/clusterexception.h	/^        NotInitializedException() : CriticalException( std::string("cluster have not been properly initialized") )$/;"	f	class:RedisCluster::NotInitializedException
+NotInitializedException	include/clusterexception.h	/^    class NotInitializedException : public CriticalException {$/;"	c	namespace:RedisCluster
+RCluster	include/container.h	/^        typedef Cluster<redisConnection, DefaultContainer> RCluster;$/;"	t	class:RedisCluster::DefaultContainer
+RCluster	src/examples/threadpool.cpp	/^    typedef Cluster<redisConnection, ThreadedPool> RCluster;$/;"	t	class:ThreadedPool	file:
+READY	include/hiredisprocess.h	/^            READY,$/;"	e	enum:RedisCluster::HiredisProcess::processState
+REDIRECT	include/asynchirediscommand.h	/^            REDIRECT,$/;"	e	enum:RedisCluster::AsyncHiredisCommand::Action
+RETRY	include/asynchirediscommand.h	/^            RETRY$/;"	e	enum:RedisCluster::AsyncHiredisCommand::Action
+RedirectConnections	include/container.h	/^        typedef std::map <Host, redisConnection*> RedirectConnections;$/;"	t	class:RedisCluster::DefaultContainer
+RedirectConnections	src/examples/threadpool.cpp	/^    typedef std::map <typename RCluster::Host, ConPool*> RedirectConnections;$/;"	t	class:ThreadedPool	file:
+RedisCluster	include/asynchirediscommand.h	/^namespace RedisCluster$/;"	n
+RedisCluster	include/cluster.h	/^namespace RedisCluster$/;"	n
+RedisCluster	include/clusterexception.h	/^namespace RedisCluster$/;"	n
+RedisCluster	include/container.h	/^namespace RedisCluster {$/;"	n
+RedisCluster	include/hirediscommand.h	/^namespace RedisCluster$/;"	n
+RedisCluster	include/hiredisprocess.h	/^namespace RedisCluster$/;"	n
+RedisCluster	include/slothash.h	/^namespace RedisCluster$/;"	n
+SDS	include/asynchirediscommand.h	/^            SDS,$/;"	e	enum:RedisCluster::AsyncHiredisCommand::CommandType
+SDS	include/hirediscommand.h	/^            SDS,$/;"	e	enum:RedisCluster::HiredisCommand::CommandType
+SlotByKey	include/slothash.h	/^        static unsigned int SlotByKey(const char *key, int keylen) {$/;"	f	class:RedisCluster::SlotHash
+SlotComparator	include/cluster.h	/^        struct SlotComparator {$/;"	s	class:RedisCluster::Cluster
+SlotConnection	include/cluster.h	/^        typedef std::pair<SlotRange, redisConnection*> SlotConnection;$/;"	t	class:RedisCluster::Cluster
+SlotConnection	src/examples/threadpool.cpp	/^    typedef typename RCluster::SlotConnection SlotConnection;$/;"	t	class:ThreadedPool	file:
+SlotHash	include/slothash.h	/^    class SlotHash$/;"	c	namespace:RedisCluster
+SlotIndex	include/cluster.h	/^        typedef unsigned int SlotIndex;$/;"	t	class:RedisCluster::Cluster
+SlotRange	include/cluster.h	/^        typedef std::pair<SlotIndex, SlotIndex> SlotRange;$/;"	t	class:RedisCluster::Cluster
+SlotRange	include/container.h	/^        typedef typename RCluster::SlotRange SlotRange;$/;"	t	class:RedisCluster::DefaultContainer
+SocketTable	src/examples/unixsocketexample.cpp	/^typedef std::map< string, string > SocketTable;$/;"	t	file:
+ThreadPoolCluster	src/examples/threadpool.cpp	/^typedef Cluster<redisContext, ThreadedPool<redisContext> > ThreadPoolCluster;$/;"	t	file:
+ThreadedPool	src/examples/threadpool.cpp	/^    ThreadedPool( typename RCluster::pt2RedisConnectFunc conn,$/;"	f	class:ThreadedPool
+ThreadedPool	src/examples/threadpool.cpp	/^class ThreadedPool$/;"	c	file:
+__libredisCluster__asynchirediscommand__	include/asynchirediscommand.h	30;"	d
+__libredisCluster__cluster__	include/cluster.h	30;"	d
+__libredisCluster__clusterexception__	include/clusterexception.h	30;"	d
+__libredisCluster__command__	include/hirediscommand.h	30;"	d
+__libredisCluster__container__	include/container.h	30;"	d
+__libredisCluster__hiredisprocess__	include/hiredisprocess.h	30;"	d
+asking	include/hirediscommand.h	/^        redisReply* asking( Connection *con  )$/;"	f	class:RedisCluster::HiredisCommand
+askingCallback	include/asynchirediscommand.h	/^        static void askingCallback( Connection* con, void *r, void *data )$/;"	f	class:RedisCluster::AsyncHiredisCommand
+checkCritical	include/hiredisprocess.h	/^        static void checkCritical( redisReply* reply, bool errorcritical, string error = "" )$/;"	f	class:RedisCluster::HiredisProcess
+cluster_p_	include/asynchirediscommand.h	/^        typename Cluster::ptr_t cluster_p_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+cluster_p_	include/hirediscommand.h	/^        typename Cluster::ptr_t cluster_p_;$/;"	m	class:RedisCluster::HiredisCommand
+cmd_	include/asynchirediscommand.h	/^        char *cmd_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+cmd_	include/hirediscommand.h	/^        char *cmd_;$/;"	m	class:RedisCluster::HiredisCommand
+cnt	src/examples/threadpool.cpp	/^volatile int cnt = 0;$/;"	v
+commandThread	src/examples/threadpool.cpp	/^void commandThread( ThreadPoolCluster::ptr_t cluster_p )$/;"	f
+conLock_	src/examples/threadpool.cpp	/^    std::mutex conLock_;$/;"	m	class:ThreadedPool	file:
+con_	include/asynchirediscommand.h	/^        typename Cluster::HostConnection con_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+config	src/examples/unixsocketexample.cpp	/^const char config[] =   "127.0.0.1:7000=\/tmp\/redis0.sock\\n"$/;"	v
+connectFunction	include/hirediscommand.h	/^        static Connection* connectFunction( const char* host, int port, void * )$/;"	f	class:RedisCluster::HiredisCommand
+connect_	include/container.h	/^        typename RCluster::pt2RedisConnectFunc connect_;$/;"	m	class:RedisCluster::DefaultContainer
+connect_	src/examples/threadpool.cpp	/^    typename RCluster::pt2RedisConnectFunc connect_;$/;"	m	class:ThreadedPool	file:
+connections_	include/cluster.h	/^        ConnectionContainer *connections_;$/;"	m	class:RedisCluster::Cluster
+connections_	include/container.h	/^        RedirectConnections connections_;$/;"	m	class:RedisCluster::DefaultContainer
+connections_	src/examples/threadpool.cpp	/^    RedirectConnections connections_;$/;"	m	class:ThreadedPool	file:
+crc16	include/slothash.h	/^        static inline uint16_t crc16(const char *buf, int len) {$/;"	f	class:RedisCluster::SlotHash
+createCluster	include/asynchirediscommand.h	/^        static typename Cluster::ptr_t createCluster( const char* host,$/;"	f	class:RedisCluster::AsyncHiredisCommand
+createCluster	include/hirediscommand.h	/^        static typename Cluster::ptr_t createCluster(const char* host,$/;"	f	class:RedisCluster::HiredisCommand
+createNewConnection	include/cluster.h	/^        inline HostConnection createNewConnection( string host, string port )$/;"	f	class:RedisCluster::Cluster
+customRedisConnect	src/examples/unixsocketexample.cpp	/^redisContext *customRedisConnect( const char *ip, int port, void *data )$/;"	f
+data_	include/container.h	/^        void* data_;$/;"	m	class:RedisCluster::DefaultContainer
+data_	src/examples/threadpool.cpp	/^    void* data_;$/;"	m	class:ThreadedPool	file:
+disconnect	include/cluster.h	/^        void disconnect()$/;"	f	class:RedisCluster::Cluster
+disconnect	include/container.h	/^        inline void disconnect(T &cons)$/;"	f	class:RedisCluster::DefaultContainer
+disconnect	include/container.h	/^        void disconnect()$/;"	f	class:RedisCluster::DefaultContainer
+disconnect	src/examples/threadpool.cpp	/^    inline void disconnect()$/;"	f	class:ThreadedPool
+disconnect	src/examples/threadpool.cpp	/^    inline void disconnect(T &cons)$/;"	f	class:ThreadedPool
+disconnect_	include/container.h	/^        typename RCluster::pt2RedisFreeFunc disconnect_;$/;"	m	class:RedisCluster::DefaultContainer
+disconnect_	src/examples/threadpool.cpp	/^    typename RCluster::pt2RedisFreeFunc disconnect_;$/;"	m	class:ThreadedPool	file:
+errorHandler	src/examples/asyncerrorshandling.cpp	/^AsyncHiredisCommand<>::Action errorHandler(const AsyncHiredisCommand<> &cmd,$/;"	f
+errorHandler	src/testing/testing.cpp	/^AsyncHiredisCommand<>::Action errorHandler(const AsyncHiredisCommand<> &cmd,$/;"	f
+fillPool	src/examples/threadpool.cpp	/^    inline void fillPool( ConPool &pool, const char* host, int port )$/;"	f	class:ThreadedPool
+freeFunction	include/hirediscommand.h	/^        static void freeFunction( Connection* con )$/;"	f	class:RedisCluster::HiredisCommand
+getCallback	src/testing/testing.cpp	/^static void getCallback( typename Cluster<redisAsyncContext>::ptr_t cluster_p, void *r, void *data )$/;"	f	file:
+getConnection	include/cluster.h	/^        SlotConnection getConnection ( std::string key )$/;"	f	class:RedisCluster::Cluster
+getConnection	include/container.h	/^        typename RCluster::SlotConnection getConnection( typename RCluster::SlotIndex index )$/;"	f	class:RedisCluster::DefaultContainer
+getConnection	src/examples/threadpool.cpp	/^    inline SlotConnection getConnection( typename RCluster::SlotIndex index )$/;"	f	class:ThreadedPool
+getKeyVal	src/testing/testing.cpp	/^void getKeyVal( char *str, Cluster<redisAsyncContext>::ptr_t cluster_p )$/;"	f
+getSyncKeyVal	src/testing/testing.cpp	/^void getSyncKeyVal( char *str, Cluster<redisContext>::ptr_t cluster_p )$/;"	f
+getUserPrivData	include/asynchirediscommand.h	/^        inline void* getUserPrivData()$/;"	f	class:RedisCluster::AsyncHiredisCommand
+init	include/cluster.h	/^        void init( redisReply *reply )$/;"	f	class:RedisCluster::Cluster
+insert	include/container.h	/^        typename RCluster::HostConnection insert( string host, string port )$/;"	f	class:RedisCluster::DefaultContainer
+insert	include/container.h	/^        void insert( typename RCluster::SlotRange slots, const char* host, int port )$/;"	f	class:RedisCluster::DefaultContainer
+insert	src/examples/threadpool.cpp	/^    inline HostConnection insert( string host, string port )$/;"	f	class:ThreadedPool
+insert	src/examples/threadpool.cpp	/^    inline void insert( typename RCluster::SlotRange slots, const char* host, int port )$/;"	f	class:ThreadedPool
+isMoved	include/cluster.h	/^        inline bool isMoved()$/;"	f	class:RedisCluster::Cluster
+key_	include/asynchirediscommand.h	/^        string key_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+key_	include/hirediscommand.h	/^        string key_;$/;"	m	class:RedisCluster::HiredisCommand
+len_	include/asynchirediscommand.h	/^        int len_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+len_	include/hirediscommand.h	/^        int len_;$/;"	m	class:RedisCluster::HiredisCommand
+libeventConnect	include/asynchirediscommand.h	/^        static Connection* libeventConnect( const char* host, int port, void *data )$/;"	f	class:RedisCluster::AsyncHiredisCommand
+libredisCluster_slothash_h	include/slothash.h	30;"	d
+lock	src/examples/threadpool.cpp	/^std::mutex lock;$/;"	v
+main	src/examples/asyncerrorshandling.cpp	/^int main(int argc, const char * argv[])$/;"	f
+main	src/examples/asyncexample.cpp	/^int main(int argc, const char * argv[])$/;"	f
+main	src/examples/example.cpp	/^int main(int argc, const char * argv[])$/;"	f
+main	src/examples/threadpool.cpp	/^int main(int argc, const char * argv[])$/;"	f
+main	src/examples/unixsocketexample.cpp	/^int main(int argc, const char * argv[])$/;"	f
+main	src/testing/testing.cpp	/^int main(int argc, const char * argv[])$/;"	f
+moved	include/cluster.h	/^        inline void moved()$/;"	f	class:RedisCluster::Cluster
+moved_	include/cluster.h	/^        volatile bool moved_;$/;"	m	class:RedisCluster::Cluster
+nodes_	include/container.h	/^        ClusterNodes nodes_;$/;"	m	class:RedisCluster::DefaultContainer
+nodes_	src/examples/threadpool.cpp	/^    ClusterNodes nodes_;$/;"	m	class:ThreadedPool	file:
+operator ()	include/cluster.h	/^            bool operator()(const SlotRange& a, const SlotRange& b) const {$/;"	f	struct:RedisCluster::Cluster::SlotComparator
+parsehostport	include/hiredisprocess.h	/^        static void parsehostport( string error, string &host, string &port )$/;"	f	class:RedisCluster::HiredisProcess
+poolSize_	src/examples/threadpool.cpp	/^    static const int poolSize_ = 10;$/;"	m	class:ThreadedPool	file:
+process	include/asynchirediscommand.h	/^        inline int process()$/;"	f	class:RedisCluster::AsyncHiredisCommand
+process	include/hirediscommand.h	/^        void* process()$/;"	f	class:RedisCluster::HiredisCommand
+processAsyncCommand	src/examples/asyncerrorshandling.cpp	/^void processAsyncCommand()$/;"	f
+processAsyncCommand	src/examples/asyncexample.cpp	/^void processAsyncCommand()$/;"	f
+processClusterCommand	src/examples/example.cpp	/^void processClusterCommand()$/;"	f
+processClusterKeysSubset	src/testing/testing.cpp	/^void processClusterKeysSubset()$/;"	f
+processCommandPool	src/examples/threadpool.cpp	/^void processCommandPool()$/;"	f
+processCommandReply	include/asynchirediscommand.h	/^        static void processCommandReply( Connection* con, void *r, void *data )$/;"	f	class:RedisCluster::AsyncHiredisCommand
+processHiredisCommand	include/asynchirediscommand.h	/^        inline int processHiredisCommand( Connection* con )$/;"	f	class:RedisCluster::AsyncHiredisCommand
+processHiredisCommand	include/hirediscommand.h	/^        redisReply* processHiredisCommand( Connection *con )$/;"	f	class:RedisCluster::HiredisCommand
+processResult	include/hiredisprocess.h	/^        static processState processResult( redisReply* reply, string &result_host, string &result_port )$/;"	f	class:RedisCluster::HiredisProcess
+processState	include/hiredisprocess.h	/^        enum processState$/;"	g	class:RedisCluster::HiredisProcess
+processUnixSocketCluster	src/examples/unixsocketexample.cpp	/^void processUnixSocketCluster()$/;"	f
+pt2AsyncAttachFn	include/asynchirediscommand.h	/^        typedef void (*pt2AsyncAttachFn)( Connection*, void * );$/;"	t	class:RedisCluster::AsyncHiredisCommand
+pt2RedisConnectFunc	include/cluster.h	/^        typedef redisConnection* (*pt2RedisConnectFunc) ( const char*, int, void* );$/;"	t	class:RedisCluster::Cluster
+pt2RedisFreeFunc	include/cluster.h	/^        typedef void (*pt2RedisFreeFunc) ( redisConnection* );$/;"	t	class:RedisCluster::Cluster
+ptr_t	include/cluster.h	/^        typedef Cluster* ptr_t;$/;"	t	class:RedisCluster::Cluster
+pullConnection	src/examples/threadpool.cpp	/^    inline redisConnection* pullConnection( std::unique_lock<std::mutex> &locker, ConPool &pool )$/;"	f	class:ThreadedPool
+pushConnection	src/examples/threadpool.cpp	/^    inline void pushConnection( std::unique_lock<std::mutex> &locker, ConPool &pool, redisConnection* con )$/;"	f	class:ThreadedPool
+readytouse_	include/cluster.h	/^        volatile bool readytouse_;$/;"	m	class:RedisCluster::Cluster
+redisCallbackFn	include/asynchirediscommand.h	/^        typedef void (redisCallbackFn)( typename Cluster::ptr_t cluster_p, void*, void* );$/;"	t	class:RedisCluster::AsyncHiredisCommand
+redisFunc_p	src/testing/testing.cpp	/^typedef void (*redisFunc_p) ( char *str, Cluster<redisAsyncContext>::ptr_t cluster_p );$/;"	t	file:
+releaseConnection	include/cluster.h	/^        void releaseConnection( HostConnection conn )$/;"	f	class:RedisCluster::Cluster
+releaseConnection	include/cluster.h	/^        void releaseConnection( SlotConnection conn )$/;"	f	class:RedisCluster::Cluster
+releaseConnection	include/container.h	/^        inline void releaseConnection( typename RCluster::HostConnection ) {}$/;"	f	class:RedisCluster::DefaultContainer
+releaseConnection	include/container.h	/^        inline void releaseConnection( typename RCluster::SlotConnection ) {}$/;"	f	class:RedisCluster::DefaultContainer
+releaseConnection	src/examples/threadpool.cpp	/^    inline void releaseConnection( HostConnection conn )$/;"	f	class:ThreadedPool
+releaseConnection	src/examples/threadpool.cpp	/^    inline void releaseConnection( SlotConnection conn )$/;"	f	class:ThreadedPool
+retry	include/asynchirediscommand.h	/^        static void retry( Connection *con, void *r, void *data )$/;"	f	class:RedisCluster::AsyncHiredisCommand
+runAskingTest	src/testing/testing.cpp	/^void runAskingTest()$/;"	f
+runAsyncAskingTest	src/testing/testing.cpp	/^void runAsyncAskingTest( )$/;"	f
+searchBySlots	include/container.h	/^        inline static typename Storage::iterator searchBySlots( typename RCluster::SlotIndex index, Storage &storage )$/;"	f	class:RedisCluster::DefaultContainer
+setCallback	src/examples/asyncerrorshandling.cpp	/^static void setCallback( typename Cluster<redisAsyncContext>::ptr_t cluster_p, void *r, void *data )$/;"	f	file:
+setCallback	src/examples/asyncexample.cpp	/^static void setCallback( typename Cluster<redisAsyncContext>::ptr_t cluster_p, void *r, void *data )$/;"	f	file:
+setCallback	src/testing/testing.cpp	/^static void setCallback( typename Cluster<redisAsyncContext>::ptr_t cluster_p, void *r, void *data )$/;"	f	file:
+setKeyVal	src/testing/testing.cpp	/^void setKeyVal( char *str, Cluster<redisAsyncContext>::ptr_t cluster_p )$/;"	f
+setMovedCb	include/cluster.h	/^        inline void setMovedCb( MovedCb fn )$/;"	f	class:RedisCluster::Cluster
+setUserErrorCb	include/asynchirediscommand.h	/^        inline void setUserErrorCb( userErrorCallbackFn *userErrorCb )$/;"	f	class:RedisCluster::AsyncHiredisCommand
+stop	include/cluster.h	/^        inline void stop()$/;"	f	class:RedisCluster::Cluster
+testOneSLot	src/testing/testing.cpp	/^void testOneSLot( RCLuster cluster_p, Func func, int maxdepth )$/;"	f
+type_	include/asynchirediscommand.h	/^        CommandType type_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+type_	include/hirediscommand.h	/^        CommandType type_;$/;"	m	class:RedisCluster::HiredisCommand
+userCallback_p_	include/asynchirediscommand.h	/^        redisCallbackFn *userCallback_p_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+userErrorCallbackFn	include/asynchirediscommand.h	/^        typedef Action (userErrorCallbackFn)( const AsyncHiredisCommand<Cluster> &,$/;"	t	class:RedisCluster::AsyncHiredisCommand
+userErrorCb_	include/asynchirediscommand.h	/^        userErrorCallbackFn *userErrorCb_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+userMovedFn_	include/cluster.h	/^        volatile MovedCb userMovedFn_;$/;"	m	class:RedisCluster::Cluster
+userPrivData_	include/asynchirediscommand.h	/^        void* userPrivData_;$/;"	m	class:RedisCluster::AsyncHiredisCommand
+~AsyncHiredisCommand	include/asynchirediscommand.h	/^        ~AsyncHiredisCommand()$/;"	f	class:RedisCluster::AsyncHiredisCommand
+~Cluster	include/cluster.h	/^        ~Cluster()$/;"	f	class:RedisCluster::Cluster
+~DefaultContainer	include/container.h	/^        ~DefaultContainer()$/;"	f	class:RedisCluster::DefaultContainer
+~HiredisCommand	include/hirediscommand.h	/^        ~HiredisCommand()$/;"	f	class:RedisCluster::HiredisCommand
+~NonCopyable	include/cluster.h	/^        ~NonCopyable() {}$/;"	f	class:RedisCluster::NonCopyable
+~ThreadedPool	src/examples/threadpool.cpp	/^    ~ThreadedPool()$/;"	f	class:ThreadedPool

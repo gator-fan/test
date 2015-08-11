@@ -1,0 +1,714 @@
+HTTP/1.1 200 OK
+Expires: Mon, 10 Aug 2015 02:34:55 GMT
+Date: Mon, 10 Aug 2015 02:32:55 GMT
+Server: nginx/1.2.3
+Content-Type: text/html
+Cache-Control: max-age=120
+Age: 36
+X-Via: 1.1 hnlywt60:8107 (Cdn Cache Server V2.0), 1.1 zhjtzh22:1 (Cdn Cache Server V2.0)
+Connection: close
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>凤凰网</title>
+<meta content="凤凰,凤凰网,凤凰新媒体,凤凰卫视,凤凰卫视中文台,资讯台,电影台,欧洲台,美洲台,凤凰周刊,phoenix,phoenixtv" name="keywords"/>
+<meta name="description"
+      content="凤凰网是中国领先的综合门户网站，提供含文图音视频的全方位综合新闻资讯、深度访谈、观点评论、财经产品、互动应用、分享社区等服务，同时与凤凰无线、凤凰宽频形成三屏联动，为全球主流华人提供互联网、无线通信、电视网三网融合无缝衔接的新媒体优质体验。"/>
+<meta content="index,follow" name="robots"/>
+<meta content="凤凰网" name="author"/>
+<meta property="qc:admins" content="17512667376165676375"/>
+<meta content="Copyright 1999-2014. www.ifeng.com . All Rights Reserved." name="copyright"/>
+<meta name="application-name" content="凤凰网"/>
+<meta name="msapplication-TileColor" content="#8F1C21"/>
+<meta name="msapplication-TileImage" content="http://y2.ifengimg.com/8cbe73a7378dafdb/2013/0416/logo.png"/>
+<link href="http://y1.ifengimg.com/index/72x72_2520ifeng.png" rel="apple-touch-icon"/>
+<script src="http://y1.ifengimg.com/BX/min/BX.1.0.1.U.js"></script>
+<style>
+/*Reset*/
+*{ vertical-align:baseline; font-weight:inherit; font-family:SimSun,Arial; font-style:inherit; font-size:100%; padding:0; margin:0; border:none;}
+body{ font-size:12px; font-family:SimSun,Arial;}
+html{ -webkit-text-size-adjust:none;}
+ol, ul{ list-style:none;}
+img{ border:none; text-decoration:none; display:block;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal; font-size:12px;}
+a{text-decoration:none;}
+a img, :link img, :visited img{ border:0;}
+.clear {clear:both;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+* html .clearfix {height: 1%;}
+*+html .clearfix {min-height: 1%;}
+* html{ background-image:url(about:blank); background-attachment:fixed;}
+/*ad*/
+.adFloatClose {	width: 77px; height: 31px; background: url("http://img.ifeng.com/tres/recommend/js/floatadclose-z.gif") no-repeat scroll 0% 0% transparent;	margin: 0; padding: 0; position: absolute; right: 0; bottom: 0; cursor: pointer; }
+.adFloatDetail { position: absolute; left: 0; top: 0; margin: 0; padding: 0; background: #fff; }
+.adFloatPlay { width: 25px; height: 21px; background: url("http://img.ifeng.com/tres/recommend/js/floatadrplay.gif") no-repeat scroll center center transparent; margin: 0; padding: 0;	cursor: pointer; }
+.adFloatMinClose { width: 25px;	height: 20px; background: url("http://img.ifeng.com/tres/recommend/js/floatadclose.gif") no-repeat scroll center top transparent; margin: 0; padding: 0; cursor: pointer; }
+.floatBuoybig{_top: expression(documentElement.scrollTop + 150 + "px");}
+.floatBuoysmall{_top:expression(documentElement.scrollTop + documentElement.clientHeight-150-50+'px');}
+.Hover{_top:expression(documentElement.scrollTop+documentElement.clientHeight-130+'px');}
+.viewWindow{_top:expression(documentElement.scrollTop+documentElement.clientHeight-300+'px');}
+.Floatbig{_top:expression(eval(document.documentElement.scrollTop));_position:absolute;}
+.Floatsmall{_top:expression(documentElement.scrollTop+documentElement.clientHeight-201+'px');_position:absolute;}
+.FloatBottombig{_top:expression(documentElement.scrollTop+documentElement.clientHeight-300+'px');}
+.FloatBottomsmall{_top:expression(documentElement.scrollTop+documentElement.clientHeight-30+'px');}
+/*main*/
+.fl{ float:left;}
+.fr{ float:right;}
+.wrap{ width:1000px; margin:0 auto;}
+.BgNone{ border:none!important; background:none!important;}
+.strong{ font-weight:bold!important;}
+.trans{transition: all .3s ease;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;-webkit-backface-visibility: hidden;}
+.trans:hover{transform:scale(1.04,1.04);-ms-transform:scale(1.04,1.04); -webkit-transform:scale(1.04,1.04);}
+h1{ padding-left:15px; line-height:28px; height:28px;}
+h1 a{ font-family:SimHei; font-size:20px; color:#004276;}
+h1 a:hover{ color:#f54343;}
+h2{ line-height:40px; height:40px; padding-top:8px;}
+h2 a{ font-size:16px; font-weight:bold; color:#004276;}
+h3{ height:26px; padding-left:13px ; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -679px; padding-top:9px;}
+h3 a{ line-height:26px; font-size:14px; color:#004276; font-weight:bold;}
+h4 a{ color:#004276; line-height:26px; height:26px; display:block;}
+h2 a:hover,h3 a:hover,h4 a:hover{ color:#f54343; text-decoration:underline;}
+.Tit01{ background:url(http://y2.ifengimg.com/a/2015/0708/sprite.png) no-repeat 0 -1046px; line-height:38px; padding-top:18px; font-size:16px; font-weight:bold; color:#2b2b2b;}
+.pos01{position:relative;}
+.zhcy{position:absolute;right:0;top:30px;_right:30px;_top:20px;}
+.Tit01 a{ font-size:16px; font-weight:bold; color:#2b2b2b;}
+.Tit02{ line-height:24px; padding-top:14px;}
+.Tit02 a{ font-size:14px; color:#2B2B2B;}
+.Tit02 span{ padding:0 5px;}
+.Tit03{ width:110px; height:27px; text-align:center; cursor:pointer; float:left;}
+.currentTab{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -1500px;}
+.Tit03 a{ font-size:14px; color:#282828; line-height:28px;}
+.Tit04 a{ color:#2b2b2b;}
+.FNewLCon dl dt.Tit06{ line-height:30px; margin-top:10px; height:30px;}
+.FNewLCon dl dt.Tit06 a{ color:#004276; font-size:14px;}
+.FNewLCon dl dt.Tit06 a:hover{ color: #f54343; text-decoration:underline;}
+.Tit01 a:hover,.Tit02 a:hover,.Tit03 a:hover,.Tit04 a:hover{ color:#f54343;}
+/*logo*/
+.Log{ height:75px; _padding-bottom:6px;}
+.LogImg{ padding:16px 0 0 15px;}/*20150707a*/
+.LogLis{ padding-top:47px;}/*20150707a*/
+.Login,.LoginAfter,.Home{ float:left; padding:5px 10px 0 12px;}
+.Search,.Home{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) -500px 6px;}
+.Search{ padding:1px 0 0 6px;}
+.Login a,.Search a,.Home a{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat; color:#333; height:16px; padding:4px 0 4px 20px;}/*20141211a*/
+.LogLis a:hover{ color:#f54343;}
+.Login a{ background-position:0 3px;}
+.Search a{ background-position:-96px 4px;}
+.Home a{ background-position:-200px 4px;}
+/*登陆后*/
+.LoginAfter{ position:relative;}
+.welcome{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 3px; height:16px; padding:4px 0 4px 18px;}
+.LoginAfter a{ color:#333; height:16px; padding:4px 0 4px 20px;}
+.LoginAfterName span{ color:#004276; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat; padding:5px 15px; background-position:7px -195px;}/*20141211a*/
+.LoginAfterName:hover{ color:#f54343; text-decoration:none;}
+.LoginAfter a.logout{ color:#333; background:none; padding-left:0;}
+.logout:hover{ color:#f54343;}
+.LoginAfter ul{ border:1px solid #dedede; position:absolute; top:22px; right:43px; background:#fff; padding:0 12px; display:none;z-index: 99;}
+.LoginAfter ul li{ float:none!important; padding:10px 0; *padding:11px 0; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -500px -67px;}
+.LoginAfter ul li a{ padding:10px 0; background:none;}
+/*搜索*/
+.searchBtn{ line-height:22px; margin:0 5px 0 0; padding:4px 4px 4px 23px; width:24px; height:14px;}
+.navFind{ width:378px;padding:0 0 0 2px;position:relative;z-index:80; margin-right:0; background:url(http://y2.ifengimg.com/a/2015/0708/textSearch.gif) no-repeat 0 1px; _padding-bottom:3px;}
+.navFind span{float:left; cursor:pointer;}
+.navFind .text{width:239px;height:17px;*height:16px;_height:16px;line-height:17px;*line-height:16px;_line-height:16px;padding:1px 0 0 4px;margin-top:2px;background:#fff;border:none;color:#646464;font-size:12px}
+#searchFormOption{position:relative;float:left;z-index:80}
+.sel{width:46px; height:18px;line-height:18px;margin:1px 9px 0 1px; padding:1px 0 0 14px;_padding:2px 0 0 14px;border:none;font-size:12px;color:#646464;}
+.sel_hover{background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -356px 7px;}
+#loginFldselectop{position:absolute;border:1px solid #DFDFDF;top:20px;left:0;width:60px;background:#fff;z-index:99; padding:2px 0 8px; height:130px;}
+#loginFldselectop li{ padding:0; float:none;}
+#loginFldselectop li a{color:#000000;padding-left:13px;width:32px;display:block; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -686px -100px; padding:7px 14px 4px; cursor:pointer;}
+#loginFldselectop li a:hover{ color:#f54343;}
+#ra1 a{ background:none!important;}
+.navFind .button,.navFind .button_hover{width:35px;height:20px;line-height:20px;cursor:pointer; margin-top:1px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -1700px;font-size:12px; border:none;}
+.navFind .button_hover{background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -100px -1700px;}
+.srhClose{ width:10px; height:10px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -200px -1700px; float:right; margin:6px 10px 0; cursor:pointer;}
+/*Nav main*/
+.NavM{ width:100%; background:#F54343;}/*20150707a*/
+.NavMCon{ height:40px;}
+.NavMCon ul li{ height:29px; float:left; padding:11px 16px 0 18px; background:url(http://y2.ifengimg.com/a/2015/0708/sprite.png) no-repeat 0 -100px;}/*20150707a*/
+.NavMCon ul li a{ font-size:16px; color:#fff;}
+.NavMCon ul li a:hover{ text-decoration:underline;}
+.NavMCon ul li.TV{ padding:11px 0px 0 44px;}/*20150707a*/
+.NavMCon ul li.TV a{ background:url(http://y2.ifengimg.com/a/2015/0708/sprite.png) no-repeat -300px -212px; display:block; padding-left:24px;}/*20150707a*/
+/*Nav vice*/
+.NavV ul{ padding-left:5px;}
+.NavV ul li{ float:left; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -300px -88px; width:43px; height:38px; text-align:center; line-height:38px;}
+.NavV ul li a{ font-size:14px; color:#2b2b2b;}
+.NavV ul li a:hover{ color:#f54343;}
+/*广告advertisement*/
+.Avt01{ width:980px; margin:0 auto; background:#F1F1F1; border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; padding:10px 10px 0; overflow:hidden;}
+.Avt01Pic{ width:980px; overflow:hidden;}
+.Avt01Lis{ width:980px; overflow:hidden;}
+.Avt01 ul{ width:1050px; padding:6px 0 5px;}
+.Avt01 ul li{ float:left; width:145px; line-height:22px; height:22px;}
+.Avt01 ul li a{ color:#6B8295;}
+.Avt01 ul li a:hover{ text-decoration:underline;}
+/*推荐recommend*/
+.Rec{ height:58px; padding-top:20px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -405px;}
+.Rec ul{ float:left;}
+.Rec ul li{ width:250px; float:left;}
+.RecPic{ width:50px; height:58px; position:relative; float:left; margin-right:10px;}
+.RecPicBor{ width:50px; height:58px; position:absolute; top:0; left:0; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -500px; _background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.gif) no-repeat 0 -500px;}
+.RecCon{ float:left;}
+.VideoLis a{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -594px; padding-left:18px;}
+/*要闻*/
+/*要闻L*/
+.FNewL{ width:220px; padding-top:8px;}
+.FNewLBox{ width:188px; height:801px; border:1px solid #dedede; padding:0 15px;}
+.FNewLCon{ border-top:1px solid #dedede; padding-bottom:13px;}
+.FNewLCon dl{ margin-top:4px;}
+.FNewLCon dl dd{ color:#838383; line-height:20px; padding:4px 0 6px; height:60px; overflow:hidden; display:block;}
+.FNewLCon dl dd.ddh40{ height:40px;}
+.FNewLConPic{ margin-top:4px; margin-right:10px; width:52px; height:52px; overflow:hidden;}
+.FNewLCon dl dt{ line-height:24px; height:24px;}
+.FNewLCon dl dt a{ color:#004276;}
+.FNewLCon dl dt a:hover{ color:#f54343; text-decoration:underline;}
+.FNewLCon dl dt em{ padding:0 4px; font-style:normal;}
+.FNewLAvt{ width:220px; height:250px; margin-top:12px; overflow:hidden;}
+/*要闻M*/
+.FNewRBox{ width:756px;}
+.FNewM{ width:366px;}
+.FNewMTop{ padding-top:18px;}
+.FNewMTop .Tit02{ padding-left:19px; padding-top:6px; padding-bottom:4px;}
+.FNewMTop .Tit02 a{ font-size:12px;}
+.FNewMTopLis{ margin-top:4px;}
+.FNewMTop ul li{ padding-left:19px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 6px -687px; height:28px;}
+.FNewMTop ul li a{ line-height:28px; font-size:14px; color:#004276;}
+.FNewMTop ul li a:hover{ color:#f54343; text-decoration:underline;}
+.FNewMTop ul.VideoUl li{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -593px; padding-left:19px;}
+.FNewLis a{ float:left;}
+.FNewLisRtab{ margin-top:3px;}
+.FNewLis a.zixunhome{ float:right;}
+.FNewMBom{ padding-left:6px; padding-top:12px; border-top: 1px solid #dedede ;position:relative; width:360px; height:138px; overflow:hidden; margin-top:20px;}
+.FNewMBom .Tit02{ padding-left:13px; padding-bottom:3px; line-height:22px; padding-top:0;}
+.FNewMBomList{ position:absolute; width:1464px;}
+.FNewMBomList ul{ float:left; width:366px;}
+.FNewMBomList ul li{ height:28px; padding-left:13px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -687px;}
+.FNewMBomList ul li a{ line-height:28px; font-size:14px; color:#004276;}
+.FNewMBomList ul li a:hover{ color:#f54343; text-decoration:underline;}
+#buttons { position: absolute; height: 6px; width: 100px; z-index: 2; top: 20px; left: 112px;}
+#buttons span { cursor: pointer; float: left; width: 6px; height: 6px; background:url(http://y2.ifengimg.com/a/2015/0708/sprite.png) no-repeat -400px -800px; margin-right: 7px;}
+#buttons .on { background-position:-500px -800px;}
+.arrow01 { cursor: pointer; display: block; width: 14px; height: 14px;  position: absolute; z-index: 2; top: 16px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat;}
+#prev01 { left: 87px; background-position:0 -800px;}
+#prev01:hover{ background-position:-200px -800px;}
+#next01 { right: 172px; background-position:-100px -800px;}
+#next01:hover{ background-position:-300px -800px;}
+/*要闻R*/
+.FNewR{ width:360px;}
+.FosPic{ width:360px; height:249px; margin-top:24px; position:relative; overflow:hidden;}
+.FosPicMenu{ width:360px; height:24px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -1600px;}
+.FosPicMenu ul{ width:370px;}
+.FosPicMenu ul li{ float:left; line-height:24px; height:24px;}
+.FosPicMenu ul li a{ color:#333; padding:0 8px; width:24px; display:block;}
+.FosPicMenu ul li.FosPicCur a{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -500px -1600px; width:25px; color:#fff; display:block; padding:0 8px;}
+.FosPicMenu ul li.current a{ background:url(http://y2.ifengimg.com/a/2015/0708/sprite.png) no-repeat -500px -1600px; width:25px; color:#fff; display:block; padding:0 8px;}
+.FosPicCon{ width:360px; height:220px; position:absolute; top:30px; left:0; z-index: 1;}
+.FosPicCon ul li{ position:absolute; top:0; left:0; width:360px; height:220px; z-index:0;}
+.FosPicConTxtBg{ width:360px; height:32px; background:#000; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity:0.6; opacity:0.6; position:absolute; top:188px; left:0;}
+.FosPicConTxt{ width:360px; height:32px; line-height:32px; _line-height:34px; position:absolute; top:188px; left:0; color:#fff; text-indent:10px;}
+.FosPicConTxt a{ color:#fff; font-size:14px;}
+.FosPicConTxt a:hover{ text-decoration:underline;}
+.arrow { cursor: pointer; display: none; _display:block; line-height: 24px; text-align: center; font-size: 22px; font-weight: bold; width: 24px; height: 24px;  position: absolute; z-index: 2; top: 126px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#FosPic:hover .arrow { display: block;}
+#prev { left: 8px;}
+#next { right: 8px;}
+.FNewVid .Tit02{ border-bottom:1px solid #dedede; line-height:34px; height:34px;}
+.FNewVidTitImg{ padding-top:6px;}
+.FNewVidCon{ margin-bottom:4px;}
+.FVCPic{ position:relative; width:120px; height:92px; margin-top:7px; _margin-top:6px; margin-right:14px; _margin-right:10px; overflow:hidden;}
+.FVCPicBtn{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) 0 -900px; _background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.gif) 0 -900px; position:absolute; top:44px; left:95px; width:20px; height:21px;}
+.FVCPicBtn a{ width:20px; height:21px; display:block;}
+.FVCPicTxtBg{ width:120px; height:22px; background:#000; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity:0.6; opacity:0.6; position:absolute; top:70px; left:0;}
+.FVCPicTxt{ width:110px;height:22px; line-height:22px; _line-height:24px; text-align:center; position:absolute; top:70px; left:0;padding:0 5px; overflow:hidden;}
+.FVCPicTxt a{ color:#fff;}
+.FVCPicTxt a:hover{ text-decoration:underline;}
+.FVCTxt li a{ font-size:14px; color:#004276; line-height:26px;}
+.FVCTxt li a:hover{ color:#f54343; text-decoration:underline;}
+.FNewVidLis{ padding-top:5px; _padding-top:3px; *padding-top:3px;}
+.FNewVidLis ul li{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -593px; padding-left:18px; height:28px;}
+.FNewVidLis ul li a{ line-height:28px; font-size:14px; color:#004276;}
+.FNewVidLis ul li a:hover{ color:#f54343; text-decoration:underline;}
+.FNewRAvtLisBox{ margin-left:6px; margin-top:12px;}
+.FNewRAvtLis{ width:318px; height:62px; border:1px solid #e6e6e6; padding:8px 20px 1px; overflow:hidden;}
+.FNewRAvtLis ul li{ height:28px;}
+.FNewRAvtLis ul li a{ line-height:28px; font-size:14px; color:#004276;}
+.FNewRAvtLis ul li a:hover{ text-decoration:underline;}
+.FNewRAvt{ padding-left:6px; width:750px; height:90px; margin-top:28px; _margin-top:29px; overflow:hidden;}
+/*财经*/
+.ColALBox{ width:220px; float:left; padding-right:30px;}
+.ColARBox,.ColCRBox{ width:750px; float:right;}
+.ColAM{ width:360px; float:left; padding-right:30px;}
+.ColAR{ width:360px; float:right;}
+.ColALBox .Tit02{ border-bottom:2px solid #999; line-height:28px; padding-top:25px; _padding-top:26px; *padding-top:26px;}
+.ColALTop{ width:208px; height:65px; background:#F6F6F6; padding:10px 0 0 12px;}
+.ColALTopL a{ font-family:Arial; color:#f54343;}
+.ColALTopL a:hover{ color:#f54343;}
+.ColALTopL a b{ font-size:32px; font-weight:bold;}
+.ColALTopL a span{ font-size:22px;}
+.ColALTopL p{ color:#999; line-height:20px;}
+.ColALTopR{ border-left:1px solid #e6e6e6; padding-left:20px; margin-left:20px; margin-top:6px;}
+.ColALTopR a{ border:1px solid #e6e6e6; font-size:14px; color:#004276; width:71px; height:45px; line-height:45px; text-align:center; display:block;}
+.ColALTopR a:hover{ border:1px solid #f54343; color:#f54343;}
+.ColALLis{ padding:14px 0 22px;}
+.ColALLis ul li{ line-height:24px; height:24px;}
+.ColALLis ul li a{ float:left; color:#004276; margin-right:10px;}/*20150331a*/
+.ColALLis ul li a:hover{ color:#f54343; text-decoration:underline;}
+.ColALLis ul li span{ color:#666;}
+.ColALAvt{ width:220px; height:155px; position:relative; overflow:hidden;}
+.ColALAvt a{ color:#FFF;}
+.ColALAvt a:hover{ color:#FFF; text-decoration:underline;}
+.ColALAvtTitBg{ background:#225bb4; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity:0.6; opacity:0.6; width:55px; height:22px; position:absolute; top:100px; left:0;}
+.ColALAvtTit{ width:55px; height:22px; line-height:22px; position:absolute; top:100px; left:0; text-indent:10px;}
+.ColALAvtPBg{ background:#333; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity:0.6; opacity:0.6; width:187px; height:22px; position:absolute; top:123px; left:0;}
+.ColALAvtP{ width:187px; height:22px; line-height:22px; position:absolute; top:123px; left:0; text-indent:10px;}
+.ColAMCon ul li{ height:26px; padding-left:13px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -687px;}
+.ColAMCon ul li a{ line-height:26px; font-size:14px; color:#004276;}
+.ColAMCon ul li a:hover{ color:#f54343; text-decoration:underline;}
+.FNewRAvtLisBox02{ margin-top:16px;}
+.ColARPic{ position:relative; width:120px; height:118px; margin-top:7px; _margin-top:6px; margin-right:14px; _margin-right:10px; overflow:hidden;}
+.ColARPic img{ position:absolute; top:0; left:0;}
+.ColARPicTxtBg{ width:120px; height:22px; background:#000; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity:0.6; opacity:0.6; position:absolute; top:96px; left:0;}
+.ColARPicTxt{ width:110px;height:22px; line-height:22px; _line-height:24px; text-align:center; position:absolute; top:96px; left:0;padding:0 5px; overflow:hidden;}
+.ColARPicTxt a{ color:#fff;}
+.ColARPicTxt a:hover{ text-decoration:underline;}
+.ColARTxt ul li a{ font-size:14px; color:#004276; line-height:26px;}
+.ColARTxt ul li a:hover{ color:#f54343; text-decoration:underline;}
+.FVCTxt,.ColARTxt{ width:226px;}
+
+.jrTit{ background:url(http://y2.ifengimg.com/a/2015/0326/2109aa5c36b4ce7.gif) 0px 54px no-repeat; line-height:40px; padding-top:18px;}
+.jrTit a{ font-size:14px; color:#666; line-height:40px;}
+.jrTit span{ margin:0 5px; font-size:14px; color:#666; float:left;}
+.jrTit .Tit03{ width:56px; height:42px; text-align:inherit; cursor:pointer; float:left;}
+.jrTit .currentTab{ background:url(http://y2.ifengimg.com/a/2015/0326/506b47de2767df7.gif) center bottom no-repeat;}
+.jrTit .currentTab a{ color:#2B2B2B;}
+.fhjrTit{ font-family:Microsoft YaHei; font-size:12px; color:#999; line-height:34px; margin-top:7px; _margin-top:9px; *margin-top:9px;}
+.fhjrTit a{ font-family:Microsoft YaHei; font-size:12px; color:#999; margin:0 5px;}
+.fhjrTit span{ margin-right:10px;}/*20150331a*/
+.fhjrTit span a{ font-family:Microsoft YaHei; font-size:18px; color:#2B2B2B!important;}/*20150331a*/
+.szzs{ margin-top:16px;}
+.szzs1{ font-family:Arial; font-size:20px; color:#f54343; padding:11px 0 7px;}/*20150707a*/
+.szzs2{ font-family:Arial; font-size:12px; color:#f54343;}/*20150707a*/
+.szzs3{ font-family:Arial; font-size:20px; color:#017f01; padding:11px 0 7px;}
+.szzs4{ font-family:Arial; font-size:12px; color:#017f01;}
+.jrss{ margin-top:12px;}
+.jrss input{ color:#a0a0a0; border:1px solid #e6e6e6; width:96px; height:19px; text-indent:5px; line-height:20px; float:left;}
+.jrss .jrssBtn1{ width:56px; height:21px; border:1px solid #e6e6e6; border-left:none; background:#f6f6f6; float:left; line-height:19px; text-align:center; color:#004276; cursor:pointer;}
+.jrss .jrssBtn2{ width:58px; height:19px; border:1px solid #e6e6e6; background:#f6f6f6; display:block; float:left; line-height:19px; text-align:center; color:#004276; margin-left:2px; cursor:pointer;}
+#szzs_dom_op a{ color:#000!important;}/*20150331a*/
+
+/*汽车*/
+.ColBL .Tit02{ border-bottom:2px solid #999; line-height:28px; padding-top:25px;}
+.ColBLLis{ width:220px; overflow:hidden; padding:14px 0 8px;}
+.ColBLLis ul{ width:240px;}
+.ColBLLis ul li{ float:left; width:57px; line-height:24px; height:24px;}
+.ColBLLis ul li a{ color:#004276;}
+.ColBLLis ul li a:hover{ color:#f54343; text-decoration:underline;}
+.ColBLPic{ width:220px; overflow:hidden;}
+.ColBLPic ul{ width:240px;}
+.ColBLPic ul li{ width:56px; float:left; padding-bottom:4px;}
+.ColBLPic ul li a{ width:49px; height:29px; border:1px solid #dfdfdf; display:block;}
+.ColBLPic ul li a:hover{ border:1px solid #e90500;}
+.ColBLPic ul li p{ color:#6c6c6c; text-align:center; line-height:20px;}
+.ColBLBtn{ margin-top:4px; margin-bottom:12px;}
+.ColBLBtn a{ color:#004276; line-height:21px;}
+.ColBLBtn a:hover{ color:#f54343; text-decoration:underline;}
+.ColBLBtn01{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -1200px; width:79px; height:21px; padding-left:28px;}
+.ColBLBtn02{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -200px -1200px; width:79px; height:21px; padding-left:28px;}
+.ColBLAvt{ width:220px; height:350px; overflow:hidden;}
+.ColBRAvt{ width:750px; height:90px; margin-top:33px; overflow:hidden;}
+/*娱乐*/
+.FNewLConPic02{ width:75px; height:52px; margin-top:4px; margin-right:10px; overflow:hidden;}
+.ColCTab{ width:220px; height:118px; border-bottom:1px solid #dedede;}
+.ColCTabTit{ background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -200px -1500px;}
+.ColCTabCon{ padding-top:10px; display:none;}
+.ColCTabCon.block{ display:block;}
+.ColCTabConPicBox{ float:left; margin:6px 10px 0 0; width:75px; height:60px; overflow:hidden;}
+.ColCTabCon img{}
+.ColCTabCon ul li{ height:24px;}
+.ColCTabCon ul li a{ color:#004276; line-height:24px;}
+.ColCTabCon ul li a:hover{ color:#f54343; text-decoration:underline;}
+.ColCMPic{ position:relative; width:170px; height:118px; margin-top:15px; overflow:hidden;}
+.ColCMPic img{ position:absolute; top:0; left:0;}
+.ColCMPicTxtBg{ width:170px; height:22px; background:#000; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity:0.6; opacity:0.6; position:absolute; top:96px; left:0;}
+.ColCMPicTxt{ width:160px; height:22px; line-height:22px; _line-height:24px; text-align:center; position:absolute; top:96px; left:0; padding:0 5px; overflow:hidden;}
+.ColCMPicTxt a{ color:#fff;}
+.ColCMPicTxt a:hover{ text-decoration:underline;}
+/*体育*/
+.ColDLAvt{ height:510px; padding-top:28px; _padding-top:28px; *padding-top:28px; overflow:hidden;}
+.ColDRAvt{ width:750px; height:90px; margin-top:23px; overflow:hidden;}
+/*房产*/
+.ColELAvt{ width:220px; height:350px; margin-top:6px; _margin-top:8px;padding-top: 3px; overflow:hidden;}
+/*时尚*/
+.ColFLAvt{ width:220px; height:250px; overflow:hidden; margin-top:11px; _margin-top:13px;}
+/*科技*/
+.ColGLAvt{ width:220px; height:250px; overflow:hidden; margin-top:13px; _margin-top:15px;}
+/*纪实*/
+.ColGLCon p{ font-size:14px; color:#333; line-height:32px; margin-top:12px;}
+.ColGLCon02{ margin-top:14px; _margin-top:15px;}
+.ColGLCon ul li{ line-height:24px; height:24px;}
+.ColGLCon02 ul li{ line-height:22px; height:22px;}
+.ColGLCon ul li a{ color:#004276;}
+.ColGLCon ul li a:hover{ color:#f54343; text-decoration:underline;}
+/*广告advertisement*/
+.Avt02{ width:1000px; margin:0 auto; border:1px solid #dedede; overflow:hidden; margin-top:25px; padding:10px 0;}
+.Avt02 ul li{ line-height:22px; height:22px;}
+.Avt02 ul li a{ color:#6B8295;}
+.Avt02 ul li a:hover{ text-decoration:underline;}
+.Avt02ul01{ width:110px; padding:0 17px 0 19px;}
+.Avt02ul02{ width:854px; float:right;}
+.Avt02ul02 li{ float:left; width:110px;padding:0 16px;}
+/*广告advertisement*/
+.Avt03{ margin-top:30px; overflow:hidden;}
+/*页尾*/
+.Footer{ margin-top:18px; text-align:center; padding-bottom:16px;}
+.City{ color:#666;  border-bottom:2px solid #f54343; line-height:32px;}
+.City a{ color:#666;}
+.City a:hover{ color:#f54343; text-decoration:underline;}
+.City .Tit04{ float:left;}
+.City p{ float:right;}
+.City p span{ padding:0 6px;}
+.Intro{ color:#666; line-height:32px;}
+.Intro a{ color:#666;}
+.Intro a:hover{ color:#f54343; text-decoration:underline;}
+.Intro .Tit04{ float:left;}
+.Intro p{ float:right;}
+.Intro p span{ padding:0 11px;}
+.Intro p em{ padding:0 6px;}
+.Copr{ color:#999; line-height:26px; margin-top:10px;}
+.Copr a{ color:#999; padding-right:8px;}
+.Copr a:hover{ color:#f54343; text-decoration:underline;}
+.Copr span{ padding:0 8px;}
+.Org{ margin-top:22px;}
+.Org a{ width:65px; height:40px; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat; display:block; color:#000; line-height:16px; padding:10px 0 0 45px; border:1px solid #d2d2d2; margin-right:14px; float:left; text-align:left;}
+.Org a:hover span{ text-decoration:underline; color:#f54343;}
+.Org a.Org01{ background-position:-9px -1300px;}
+.Org a.Org02{ background:#fff; padding:10px 0 0 10px; width:82px;}
+.Org a.Org03{ background-position:-203px -1300px; padding:10px 0 0 52px;}
+.Org a.Org04{ background-position:-410px -1300px; padding:10px 0 0 50px; width:54px;}
+.Org a.Org05{ background-position:-607px -1300px;}
+.Org a.Org06{ background-position:-806px -1294px; padding:1px 0 0 48px; height:49px;}
+.Org a.Org07{ background-position:0px -1400px; color:#FFF; padding:10px 0 0 68px; width:52px;}
+.Org a.Org08{ background:url(http://y0.ifengimg.com/ifeng/index/20150120/jbzx.gif) no-repeat 6px 6px; padding:10px 0 0 55px; margin-right:0;}
+/*左侧三个搜索*/
+.pdb8{ padding-bottom:8px;}
+.sear01,.sear03{ width:218px; height:20px; padding:0 0 22px 2px;position:relative;z-index:80; margin-right:0; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat 0 -1900px;}
+.sear03{ padding: 0 0 15px 2px; *padding: 0 0 0 2px; *margin-bottom:7px;}
+.sear01 span,.sear03 span{float:left; cursor:pointer;}
+.sear01 .text,.sear03 .text{width:136px;height:16px;*height:16px;_height:16px;line-height:16px;*line-height:16px;_line-height:16px;padding:0 0 0 4px;margin-top:2px;background:#fff;border:none;color:#646464;font-size:12px}
+#sear01form,#sear03form{position:relative;float:left;z-index:80; margin-left:1px;}
+.sear01sel,.sear03sel{ width:39px; height:20px; line-height:20px; font-size:12px; color:#646464; padding-left:6px;}
+#sear01sellist,#sear03sellist{position:absolute;border:1px solid #DFDFDF;top:19px;left:-1px;width:45px;background:#fff;z-index:99; padding:2px 0 0; height:130px;}
+#sear01sellist li,#sear03sellist li{ padding:0; float:none;}
+#sear01sellist li a,#sear03sellist li a{color:#000000;padding-left:13px;width:32px;display:block; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -695px -100px; padding:7px 5px 4px; cursor:pointer;}
+#sear01sellist li a:hover,#sear03sellist li a:hover{ color:#f54343;}
+#rb1 a,#rc1 a{ background:none!important;}
+.sear01btn,.sear03btn{width:30px;height:20px;line-height:20px;cursor:pointer; background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -300px -1900px;font-size:12px; border:none; margin-left:2px;}
+.sear01sel_hover,.sear03sel_hover{background:url(http://y0.ifengimg.com/ifeng/index/20141211/sprite.png) no-repeat -368px 7px;}
+.sear02{ width:218px; height:20px; padding:0 0 15px 2px;position:relative;z-index:80; margin-right:0; background:url(http://y0.ifengimg.com/a/2015/0513/size47_w1000_h2000/sprite.png) no-repeat -400px -1900px; *_padding-bottom:6px;}
+.sear02 span{float:left; cursor:pointer;}
+.sear02 .text{width:192px;height:16px;*height:16px;_height:16px;line-height:16px;*line-height:16px;_line-height:16px;padding:0 0 0 4px;margin-top:2px;background:#fff;border:none;color:#999;font-size:12px}
+.sear02btn{width:22px;height:20px; cursor:pointer; border:none; background:none;}
+.sear04{ padding:0px 0px 22px 2px;}
+</style>
+<script>
+    var sUserAgent = navigator.userAgent,
+            mobileAgents = ['Windows CE', 'iPod', 'Symbian', 'iPhone', 'BlackBerry', 'Android', 'Windows Phone'];
+
+    if ((sUserAgent.match(/iPad/i))) {
+        location.href = 'http://www.ifeng.com/ipad/';
+    }
+    for (var i = 0, len = mobileAgents.length; i < len; i++) {
+        if (sUserAgent.indexOf(mobileAgents[i]) !== -1) {
+            location.href = 'http://i.ifeng.com/ifengweb?ch=ifengweb';
+            break;
+        }
+    }
+    var ads = [];
+</script>
+<script src="http://h0.ifengimg.com/20150625/fa.min.js"></script>
+</head>
+<body>
+<script src="http://stadig.ifeng.com/actsta.js?datatype=www8test"></script>
+<div class="Log wrap clearfix">
+    <div class="fl LogImg"><a href="http://www.ifeng.com" target="_blank"><img src="http://y2.ifengimg.com/a/2015/0715/ifengLogo_z.gif" alt="凤凰网" title="凤凰网" width="140" height="49"></a></div>
+    <div class="fr LogLis">
+        <div class="Login fl"><a id="btnSwapLogin" href="javascript:;">登录</a></div>
+        <div class="LoginAfter fl" id="welcome" style="display: none;"></div>
+        <div class="Search fl">
+            <div class="navFind fl" id="navFind" style="display:none">
+                <form id="search_form" method="get" action="http://search.ifeng.com/sofeng/search.action"
+                      target="_blank">
+                    <span>
+                        <input id="keyword" type="text" name="q" value="" class="text" autocomplete="off"/>
+                        <input id="param1" type="hidden" name="c" value="1"/>
+                        <input id="param2" type="hidden" name="" value="" disabled="disabled"/>
+                    </span>
+
+                    <div id="searchFormOption">
+                        <style>
+                            .arrowfold {
+                                background: url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0802/arrowfold.gif) no-repeat right center;
+                            }
+                        </style>
+                        <span id="loginUl" class="sel">站内</span>
+                        <ul id="loginFldselectop" style="display:none">
+                            <li id="ra1"><a>站内</a></li>
+                            <li id="ra2"><a>站外</a></li>
+                            <li id="ra3"><a>证券</a></li>
+                            <li id="ra4"><a>汽车</a></li>
+                            <li id="ra0"><a>视频</a></li>
+                        </ul>
+                    </div>
+                    <span><input type="submit" value="" id="btnSearch1" class="button" style="cursor: pointer;"/></span>
+
+                    <div class="srhClose" id="srhClose"></div>
+                    <div class="clear"></div>
+                    <div id="suggest_list" class="stockList"></div>
+                    <div class="clear"></div>
+
+                </form>
+            </div>
+            <a class="searchBtn" id="searchBtn" href="javascript:;">查找</a>
+        </div>
+        <div class="Home fl"><a id="setHomePage" href="javascript:;"
+                                onclick="setHome(this,window.location)">设为首页</a></div>
+        <script>
+            function setHome(obj, url) {
+                try {
+                    obj.style.behavior = 'url' + '(#default#homepage)';
+                    obj.setHomePage(url);
+                } catch (e) {
+                    if (window.netscape) {
+                        try {
+                            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                        } catch (e) {
+                            alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");
+                        }
+                        var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                        prefs.setCharPref('browser.startup.homepage', url);
+                    }
+                }
+            }
+        </script>
+    </div>
+</div>
+
+<div class="NavM">
+    <div class="wrap NavMCon">
+        <ul class="clearfix">
+    <li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li>
+    <li><a href="http://v.ifeng.com/" target="_blank">视频</a></li>
+    <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li>
+    <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li>
+    <li><a href="http://sports.ifeng.com/" target="_blank">体育</a></li>
+    <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li>
+    <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li>
+    <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li>
+    <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li>
+    <li><a href="http://blog.ifeng.com/" target="_blank">博报</a></li>
+    <li><a href="http://games.ifeng.com/" target="_blank">游戏</a></li>
+    <li><a href="http://yc.ifeng.com/?_bookch=top" target="_blank">书城</a></li>
+    <li><a href="http://fo.ifeng.com/" target="_blank">佛教</a></li>
+    <li class="TV"><a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a></li>
+</ul>
+    </div>
+</div>
+
+<div class="NavV wrap" id="viceNav">
+    <ul class="clearfix">
+    <li class="BgNone"><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li>
+    <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li>
+    <li><a href="http://news.ifeng.com/opinion/" target="_blank">评论</a></li>
+    <li><a href="http://finance.ifeng.com/stock/" target="_blank">股票</a></li>
+    <li><a href="http://finance.ifeng.com/money/" target="_blank">理财</a></li>
+    <li><a href="http://jr.ifeng.com/" target="_blank">金融</a></li>
+    <li><a href="http://digi.ifeng.com/" target="_blank">数码</a></li>
+    <li><a href="http://home.ifeng.com/" target="_blank">家居</a></li>
+    <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li>
+    <li><a href="http://culture.ifeng.com/" target="_blank">文化</a></li>
+    <li><a href="http://city.ifeng.com/" target="_blank">城市</a></li>
+    <li><a href="http://travel.ifeng.com/" target="_blank">旅游</a></li>
+    <li><a href="http://fashion.ifeng.com/health/" target="_blank">健康</a></li>
+    <li><a href="http://fashion.ifeng.com/baby/" target="_blank">亲子</a></li>
+    <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li>
+    <li><a href="http://gongyi.ifeng.com/" target="_blank">公益</a></li>
+    <li><a href="http://astro.ifeng.com/" target="_blank">星座</a></li>
+    <li><a href="http://yue.ifeng.com/" target="_blank">音乐</a></li>
+    <li><a href="http://talk.ifeng.com/" target="_blank">讲堂</a></li>
+    <li><a href="http://zhongyi.ifeng.com/" target="_blank">中医</a></li>
+    <li><a href="http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=7549&l=28590&bg=28590&b=37039&u=http://audi-future.ifeng.com/" target="_blank">未来</a></li>
+    <li><a href="http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=7144&l=27512&bg=27512&b=33679&u=http://innovation.ifeng.com/" target="_blank">创新</a></li>
+    <li><a href="http://guoxue.ifeng.com/" target="_blank">国学</a></li>
+</ul>
+</div>
+<script src="http://m1.ifengimg.com/ifeng/sources/inice_v1.js"></script>
+<div class="Avt01">
+    <div class="Avt01Pic">
+        
+<!--s_ifeng_index_141202_ad_banner_top 2015.08.10 09:26:47-->
+<script type="text/javascript">try{aptracker.add(24);}catch(e){}</script>
+
+
+<script type='text/javascript'>
+if(INice.getCookie('prov') == '9999'){
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + 
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+}
+</script>
+
+<script type='text/javascript'>
+if(INice.getCookie('prov') == '9999'){
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/51332160/s_ifeng_index_130516_ad_button_small01', [200, 230], 'div-gpt-ad-1403958802582-0').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_button_01', [220, 250], 'div-gpt-ad-1403958802582-3').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_button_02', [220, 350], 'div-gpt-ad-1403958802582-4').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_130101_ad_button_03', [220, 510], 'div-gpt-ad-1403958802582-5').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_button_03', [220, 350], 'div-gpt-ad-1403958802582-6').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_button_04', [220, 250], 'div-gpt-ad-1403958802582-7').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_button_05', [220, 250], 'div-gpt-ad-1403958802582-8').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_banner_01', [750, 90], 'div-gpt-ad-1403958802582-10').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_banner_02', [750, 90], 'div-gpt-ad-1403958802582-11').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_banner_03', [750, 90], 'div-gpt-ad-1403958802582-12').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_banner_04', [750, 90], 'div-gpt-ad-1403958802582-13').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_banner_05', [750, 90], 'div-gpt-ad-1403958802582-14').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110729_ad_banner_06', [750, 90], 'div-gpt-ad-1403958802582-15').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_141202_ad_banner_07', [750, 90], 'div-gpt-ad-1419524999894-0').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_141202_ad_button_07', [220, 510], 'div-gpt-ad-1420093906699-0').addService(googletag.pubads());
+    googletag.defineSlot('/51332160/s_ifeng_index_110630_ad_banner_99', [1000, 90], 'div-gpt-ad-1407410517382-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+    });
+}
+</script>
+
+<style>
+.adBlue, .adBlue a:link, .adBlue a:visited, .adBlue a:hover { color:#164d6c}
+</style>
+<div id="Ap4132" style="display:none;">
+
+<var style="display:none;" v="24,0,0,NULL,fixture"></var><cite>
+<!--BOF
+<script>
+	(function () {
+		var mfp_base = "http://mfp.deliver.ifeng.com/mfp/mfpMultipleDelivery.do?t=html&ADUNITID=458&CHANNEL=index";
+		var mfp_user_cookie_name = "userid";
+		var mfp_preview_cookie_name = "PID";
+		function mfp_getCookie(c_name) {
+			var start = document.cookie.indexOf(c_name+"=");
+			if (start ==-1) {return "";}
+			start = start+c_name.length+1;
+			var end = document.cookie.indexOf(";",start);
+			if (end==-1) {end = document.cookie.length;}
+			return decodeURIComponent(document.cookie.substring(start,end));
+		};
+		var mfppid="&"+mfp_preview_cookie_name+"="+mfp_getCookie(mfp_preview_cookie_name);
+		
+		var mfp_url=mfp_base+"&USERID="+mfp_getCookie(mfp_user_cookie_name)+mfppid;
+		document.write('<scr'+'ipt src="'+mfp_url+'"></scr'+'ipt>');
+		
+	})();
+</script>
+EOF-->
+</cite>
+<code>
+<!--BOF
+<script>
+	(function () {
+		var mfp_base = "http://mfp.deliver.ifeng.com/mfp/mfpMultipleDelivery.do?t=html&ADUNITID=458&CHANNEL=index";
+		var mfp_user_cookie_name = "userid";
+		var mfp_preview_cookie_name = "PID";
+		function mfp_getCookie(c_name) {
+			var start = document.cookie.indexOf(c_name+"=");
+			if (start ==-1) {return "";}
+			start = start+c_name.length+1;
+			var end = document.cookie.indexOf(";",start);
+			if (end==-1) {end = document.cookie.length;}
+			return decodeURIComponent(document.cookie.substring(start,end));
+		};
+		var mfppid="&"+mfp_preview_cookie_name+"="+mfp_getCookie(mfp_preview_cookie_name);
+		
+		var mfp_url=mfp_base+"&USERID="+mfp_getCookie(mfp_user_cookie_name)+mfppid;
+		document.write('<scr'+'ipt src="'+mfp_url+'"></scr'+'ipt>');
+		
+	})();
+</script>
+EOF-->
+</code>
+
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		document.write('<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=31&cg=27&c=32&or=5157&l=19804&bg=19804&b=19815&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" style="display:none;" />');
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_ifeng_index_130101_ad_banner_top';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		if (INice.getCookie('prov') == '') {
+			document.write('<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=31&cg=27&c=32&or=5157&l=19809&bg=19809&b=19820&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" style="display:none;" />');
+		}
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 5, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "Ap4132"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_ifeng_index_141202_ad_banner_top-->
+
+    </div>
+    <div class="Avt01Lis">
+		<script src="http://stadig.ifeng.com/actsta.js?datatype=www13test"></script>
+        
+<!--s_ifeng_index_130101_ad_text_01 2015.08.10 10:12:05-->
+<script type="text/javascript">try{aptracker.add(1076);aptracker.add(1077);aptracker.add(1078);aptracker.add(1079);aptracker.add(1080);aptracker.add(8077);aptracker.add(1083);aptracker.add(8078);aptracker.add(1084);aptracker.add(1085);aptracker.add(1086);aptracker.add(1087);aptracker.add(5839);aptracker.add(5840);aptracker.add(8083);aptracker.add(8084);}catch(e){}</script>
+<ul id="ad_text_01" class="clearfix">
+
+<li>
+<var style="display:none;" v="1076,25425,4453,,B1"></var><a href="http://dol.deliver.ifeng.com/c?02d5eb205MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLNyx9jolZpxLhEvXbkNf_lHSMdSFg2igQvMJxkOeSMU1cbwdla4D-bXrNFwzz91SjcUMSoAV-KI5Ukm-g1oTFI" target="_blank">留学、移民快速通道</a>
+</li>
+
+<li>
+<var style="display:none;" v="1077,25425,4454,,B1"></var><a href="http://dol.deliver.ifeng.com/c?201d6cd65MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLNyx9jolZpxOcpEx95-H4KEJ3_S7uv07fMwp72MHJTMlcbwdla4D-biCUAxN4AfAXJDPdTYhvqspMdfYDCDECHVoWj4euzzBIc7-yimYcEVF40RmD7i1muIbCPv5JGuyE" target="_blank">21天写出一手好字</a>
+</li>
+
+<li>
+<var style="display:none;" v="1078,25425,4455,,B1"></var><a href="http://dol.deliver.ifeng.com/c?f808460a5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLNyx9jolZpxFGLsWbgNPkk3gSo4GtsISkYfaA5U-7rGFcbwdla4D-bBp2mKSJ7Rn4t2DBAI9gfZLxF9y0adudzrYtV4Y_PmP8" target="_blank">北大总裁班报名官网</a>
+</li>
+
+<li>
+<var style="display:none;" v="1079,25425,4456,,B1"></var><a href="http://dol.deliver.ifeng.com/c?fcf4662e5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLNyx9jolZpxBVu49jBmcUraX_UxuFtGkG4C4CO3sYa51cbwdla4D-biCUAxN4AfAXJDPdTYhvqshsSx58Ypn4vGp1zXiyTBaMc7-yimYcEVF40RmD7i1mub37dMJq14eI" target="_blank">轻松学口语速成教程</a>
+</li>
+
+<li>
+<var style="display:none;" v="1080,25425,4457,,B1"></var><a href="http://dol.deliver.ifeng.com/c?0c66bd1e5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLNyx9jolZpxC1EM6_MpJw3wb9U_OlUagGZKaplLMLLv1cbwdla4D-biCUAxN4AfAXJDPdTYhvqssYd8q7DWEH2vtWGUSUabxMzTZt2zRvn1LXeI4I32UDsXzispEuuE2U" target="_blank">快速提高-学习成绩</a>
+</li>
+
+<li>
+<var style="display:none;" v="1083,25592,4458,,B2"></var><a href="http://dol.deliver.ifeng.com/c?760552ab5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJahgp4eC2ayl8FSaVR4t-h0BXELg-mFl-Uz8TgNiugq1cbwdla4D-b0YFWDYa_-k71wYxDZ1erhLJBEzzro7QGjf1oSI-ppFu3F_GNRgSK2w" target="_blank">当冬奥会遇上京津冀</a>
+</li>
+
+<li>
+<var style="display:none;" v="1084,25592,4459,,B2"></var><a href="http://dol.deliver.ifeng.com/c?f1006fdf5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJahgp4eC2ayqhmtiNRlawnw1ekH3qoOYx06Uc9l3amwFcbwdla4D-bu96uBlruEbqNeTirLFugJUGznda6SlMAeGrwQgtZ42ul6skEygCqiw" target="_blank">湖北人股市沉浮录</a>
+</li>
+
+<li>
+<var style="display:none;" v="1085,25425,4460,,B1"></var><a href="http://dol.deliver.ifeng.com/c?2b654a6c5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLNyx9jolZpxFtrWF3hbJxYiU46nA8j_PG2Ptc0sNHeK1cbwdla4D-biCUAxN4AfAXJDPdTYhvqslMJQKnSUfF7T0d3FUbbxXcc7-yimYcEVF40RmD7i1muOv0nHMpv-DA" target="_blank">记忆训练宜早不宜迟</a>
+</li>
+
+<li>
+<var style="display:none;" v

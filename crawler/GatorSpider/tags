@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANALYSIS_H	analysis.h	19;"	d
+ANALY_PARM	common.h	/^}ANALY_PARM;$/;"	t	typeref:struct:analy_parm_s
+APHash	hash.c	/^unsigned int APHash(char* str, unsigned int len)$/;"	f
+BF	bloom.h	/^}BF;$/;"	t	typeref:struct:__anon1
+BITSIZE	bloom.c	8;"	d	file:
+BKDRHash	hash.c	/^unsigned int BKDRHash(char* str, unsigned int len)$/;"	f
+BPHash	hash.c	/^unsigned int BPHash(char* str, unsigned int len)$/;"	f
+BUFFERSIZE	bloom.c	9;"	d	file:
+BUFFERSIZE	trie.c	7;"	d	file:
+COMMON_H	common.h	19;"	d
+CONNECT_ADDRESS	common.h	119;"	d
+CONNSER_THREAD	common.h	/^}CONNSER_THREAD;$/;"	t	typeref:struct:connser_thread_s
+DEKHash	hash.c	/^unsigned int DEKHash(char* str, unsigned int len)$/;"	f
+DJBHash	hash.c	/^unsigned int DJBHash(char* str, unsigned int len)$/;"	f
+ELFHash	hash.c	/^unsigned int ELFHash(char* str, unsigned int len)$/;"	f
+EVENT_PARM	common.h	/^}EVENT_PARM;$/;"	t	typeref:struct:event_parm_s
+FNVHash	hash.c	/^unsigned int FNVHash(char* str, unsigned int len)$/;"	f
+FUNCNUM	bloom.c	10;"	d	file:
+GETBIT	bloom.c	12;"	d	file:
+GLOBAL_BASE_URL	common.h	120;"	d
+HTTP_RES	common.h	/^}HTTP_RES;$/;"	t	typeref:struct:http_response_s
+INCLUDE_GENERALHASHFUNCTION_C_H	hash.h	22;"	d
+JSHash	hash.c	/^unsigned int JSHash(char* str, unsigned int len)$/;"	f
+LEN_GLOBAL_BASE_URL	common.h	121;"	d
+LEN_HREF	analysis.h	27;"	d
+LEN_HTTPFLAG	analysis.h	29;"	d
+LEN_JAVASCRIPT	analysis.h	28;"	d
+LIBBUFTEST_H	connserver.h	2;"	d
+LISTEN_ADDRESS	common.h	118;"	d
+MAXT_IN_POOL	threadpool.h	9;"	d
+PJWHash	hash.c	/^unsigned int PJWHash(char* str, unsigned int len)$/;"	f
+QUEUETYPE_H	queuetype.h	2;"	d
+QueueType	queuetype.h	/^}QueueType;$/;"	t	typeref:struct:queuetype_s
+RSHash	hash.c	/^unsigned int RSHash(char* str, unsigned int len)$/;"	f
+SDBMHash	hash.c	/^unsigned int SDBMHash(char* str, unsigned int len)$/;"	f
+SETBIT	bloom.c	11;"	d	file:
+START_POINT	common.h	/^}START_POINT;$/;"	t	typeref:struct:start_point_st
+STATUS_0	analysis.h	31;"	d
+STATUS_1	analysis.h	32;"	d
+STATUS_2	analysis.h	33;"	d
+STATUS_3	analysis.h	34;"	d
+STATUS_4	analysis.h	35;"	d
+STATUS_5	analysis.h	36;"	d
+STATUS_6	analysis.h	37;"	d
+STATUS_7	analysis.h	38;"	d
+THREAD_NUM	common.h	122;"	d
+THREAD_PARM	common.h	/^}THREAD_PARM;$/;"	t	typeref:struct:thread_param_s
+TRIE	trie.h	/^typedef struct trieTree TRIE;$/;"	t	typeref:struct:trieTree
+URL_REQ	common.h	/^}URL_REQ;$/;"	t	typeref:struct:url_req_s
+URL_RSP	common.h	/^}URL_RSP;$/;"	t	typeref:struct:url_rsp_s
+__BLOOMFILTER_H__	bloom.h	2;"	d
+__LISTTRIE_H__	trie.h	2;"	d
+_threadpool	threadpool.c	/^} _threadpool;$/;"	t	typeref:struct:_threadpool_st	file:
+_threadpool_st	threadpool.c	/^typedef struct _threadpool_st {$/;"	s	file:
+analy	analysis.c	/^void analy(void *arg){$/;"	f
+analy_parm_s	common.h	/^typedef struct analy_parm_s{$/;"	s
+analy_run	analysis.c	/^void* analy_run(void *arg){$/;"	f
+arg	threadpool.c	/^	void * arg;$/;"	m	struct:work_st	file:
+bEvbuffer	common.h	/^	struct evbuffer *bEvbuffer;$/;"	m	struct:event_parm_s	typeref:struct:event_parm_s::evbuffer
+base	common.h	/^	struct event_base *base; $/;"	m	struct:event_parm_s	typeref:struct:event_parm_s::event_base
+base	queuetype.h	/^	void **base;$/;"	m	struct:queuetype_s
+base_url	common.h	/^	char base_url[1024];$/;"	m	struct:http_response_s
+bf	common.h	/^	BF *bf;$/;"	m	struct:analy_parm_s
+bf	common.h	/^	BF *bf;$/;"	m	struct:thread_param_s
+bloom	bloom.c	/^void bloom(FILE *pool,FILE *check,FILE *result) {$/;"	f
+bloom_add	bloom.c	/^int bloom_add(BF **bfArray,char *str)$/;"	f
+bloom_check	bloom.c	/^int bloom_check(BF **bfArray,char *str)$/;"	f
+bloom_create	bloom.c	/^BF* bloom_create()$/;"	f
+bloom_destroy	bloom.c	/^int bloom_destroy(BF **bfArray)$/;"	f
+bro	trie.h	/^	TRIE *bro;$/;"	m	struct:trieTree
+cb_read	libtest.c	/^void cb_read(evutil_socket_t fd,short what,void *arg){$/;"	f
+cb_write	libtest.c	/^void cb_write(evutil_socket_t fd,short what,void *arg){$/;"	f
+clength	common.h	/^	int clength;$/;"	m	struct:http_response_s
+conn	common.h	/^	int conn;$/;"	m	struct:http_response_s
+connser_thread_s	common.h	/^typedef struct connser_thread_s{$/;"	s
+connserver_run	connserver.c	/^void* connserver_run(void *arg){$/;"	f
+count	common.h	/^	int *count;$/;"	m	struct:connser_thread_s
+count	common.h	/^	int *count;$/;"	m	struct:event_parm_s
+create_threadpool	threadpool.c	/^threadpool create_threadpool(int num_threads_in_pool) {$/;"	f
+dequeue	queuetype.c	/^void *dequeue(QueueType *q) {$/;"	f
+destroy_threadpool	threadpool.c	/^void destroy_threadpool(threadpool destroyme) {$/;"	f
+dispatch	threadpool.c	/^void dispatch(threadpool from_me, dispatch_fn dispatch_to_here,$/;"	f
+dispatch_fn	threadpool.h	/^typedef void (*dispatch_fn)(void *);$/;"	t
+do_work	threadpool.c	/^void* do_work(threadpool p) {$/;"	f
+dont_accept	threadpool.c	/^	int dont_accept;$/;"	m	struct:_threadpool_st	file:
+empty	common.h	/^	sem_t *empty;$/;"	m	struct:analy_parm_s
+empty	common.h	/^	sem_t *empty;$/;"	m	struct:connser_thread_s
+empty	common.h	/^	sem_t *empty;$/;"	m	struct:event_parm_s
+empty	common.h	/^	sem_t *empty;$/;"	m	struct:thread_param_s
+enter	queuetype.c	/^void enter(QueueType *q, void *x) {$/;"	f
+eventRead	connserver.c	/^void eventRead(struct bufferevent *bev,void *ptr){$/;"	f
+event_parm_s	common.h	/^typedef struct event_parm_s{$/;"	s
+eventcb	connserver.c	/^void eventcb(struct bufferevent *bev,short events,void *ptr){$/;"	f
+false	trie.h	8;"	d
+filter	bloom.h	/^unsigned int *filter;$/;"	m	struct:__anon1
+find_common_head	trie.c	/^int find_common_head(char *s1,char *s2) {$/;"	f
+front	queuetype.h	/^	int front,rear;$/;"	m	struct:queuetype_s
+func	bloom.c	/^phashfunc func[FUNCNUM];$/;"	v
+get_address	analysis.c	/^void get_address(char *arg,START_POINT *sp){$/;"	f
+html	common.h	/^	char *html;$/;"	m	struct:analy_parm_s
+html	common.h	/^	struct evbuffer *html;$/;"	m	struct:http_response_s	typeref:struct:http_response_s::evbuffer
+html	common.h	/^	struct evbuffer *html;$/;"	m	struct:url_req_s	typeref:struct:url_req_s::evbuffer
+http_response_s	common.h	/^typedef struct http_response_s{$/;"	s
+http_status_code	common.h	/^	int http_status_code;$/;"	m	struct:http_response_s
+id	common.h	/^	int id;$/;"	m	struct:connser_thread_s
+id	common.h	/^	int id;$/;"	m	struct:event_parm_s
+ihead	common.h	/^	int ihead;$/;"	m	struct:http_response_s
+initQueue	queuetype.c	/^void initQueue(QueueType *q,int size) {$/;"	f
+init_bvbuff	connserver.c	/^int init_bvbuff(EVENT_PARM *pa,struct bufferevent *bev){$/;"	f
+init_request	connserver.c	/^void init_request(HTTP_RES *s){$/;"	f
+ip	common.h	/^	char ip[16];$/;"	m	struct:start_point_st
+isEmail	trie.h	/^	short int isEmail;$/;"	m	struct:trieTree
+length	queuetype.h	/^	int length;$/;"	m	struct:queuetype_s
+logger	connserver.c	/^FILE *logger;$/;"	v
+logger	libtest.c	/^FILE *logger;$/;"	v
+logp	connserver.c	/^void logp(int sev,const char *msg){$/;"	f
+logp	libtest.c	/^void logp(int sev,const char *msg){$/;"	f
+main	libtest.c	/^int main() {$/;"	f
+main	main.c	/^int main(int argc, char * argv[]){$/;"	f
+mutex	common.h	/^	pthread_mutex_t *mutex;$/;"	m	struct:connser_thread_s
+mutex	common.h	/^	pthread_mutex_t *mutex;$/;"	m	struct:event_parm_s
+mutex	queuetype.h	/^	pthread_mutex_t mutex;$/;"	m	struct:queuetype_s
+next	threadpool.c	/^	struct work_st* next;$/;"	m	struct:work_st	typeref:struct:work_st::work_st	file:
+nn_mutex	common.h	/^	pthread_mutex_t *nn_mutex;$/;"	m	struct:connser_thread_s
+nn_mutex	common.h	/^	pthread_mutex_t *nn_mutex;$/;"	m	struct:event_parm_s
+nn_sock	common.h	/^	int nn_sock;$/;"	m	struct:analy_parm_s
+node_find	trie.c	/^TRIE* node_find(TRIE *l,char *str,int *count) {$/;"	f
+nowlength	common.h	/^	int nowlength;$/;"	m	struct:http_response_s
+num_threads	threadpool.c	/^	int num_threads;	\/\/number of active threads$/;"	m	struct:_threadpool_st	file:
+phashfunc	hash.h	/^typedef unsigned int (*phashfunc)(char*, unsigned int len);$/;"	t
+port	common.h	/^	int port;$/;"	m	struct:start_point_st
+q_empty	threadpool.c	/^	pthread_cond_t q_empty;$/;"	m	struct:_threadpool_st	file:
+q_not_empty	threadpool.c	/^	pthread_cond_t q_not_empty;	\/\/non empty and empty condidtion vairiables$/;"	m	struct:_threadpool_st	file:
+qhead	threadpool.c	/^	work_t* qhead;		\/\/queue head pointer$/;"	m	struct:_threadpool_st	file:
+qlock	threadpool.c	/^	pthread_mutex_t qlock;		\/\/lock on the queue list$/;"	m	struct:_threadpool_st	file:
+qmutexlock	threadpool.c	/^	pthread_mutex_t qmutexlock;	\/\/lock for not empty$/;"	m	struct:_threadpool_st	file:
+qsize	threadpool.c	/^	int qsize;			\/\/number in the queue$/;"	m	struct:_threadpool_st	file:
+qtail	threadpool.c	/^	work_t* qtail;		\/\/queue tail pointer$/;"	m	struct:_threadpool_st	file:
+qu	common.h	/^	QueueType *qu;$/;"	m	struct:analy_parm_s
+queuetype_s	queuetype.h	/^typedef struct queuetype_s {$/;"	s
+rear	queuetype.h	/^	int front,rear;$/;"	m	struct:queuetype_s
+reverseString	trie.c	/^void reverseString(char *str) {$/;"	f
+routine	threadpool.c	/^	void (*routine) (void*);$/;"	m	struct:work_st	file:
+s	common.h	/^	START_POINT *s;$/;"	m	struct:connser_thread_s
+s	connserver.c	/^struct timeval s;$/;"	v	typeref:struct:timeval
+s_add	common.h	/^	char *s_add;$/;"	m	struct:start_point_st
+send_mutex	common.h	/^	pthread_mutex_t *send_mutex;$/;"	m	struct:connser_thread_s
+send_mutex	common.h	/^	pthread_mutex_t *send_mutex;$/;"	m	struct:event_parm_s
+shutdown	threadpool.c	/^	int shutdown;$/;"	m	struct:_threadpool_st	file:
+size	bloom.h	/^unsigned int size;$/;"	m	struct:__anon1
+size	common.h	/^	int size;$/;"	m	struct:url_rsp_s
+size	queuetype.h	/^	int size;$/;"	m	struct:queuetype_s
+sock	common.h	/^	int sock;$/;"	m	struct:connser_thread_s
+sock	common.h	/^	int sock;$/;"	m	struct:event_parm_s
+sock	common.h	/^	int sock;$/;"	m	struct:thread_param_s
+son	trie.h	/^	TRIE *son;$/;"	m	struct:trieTree
+ss_empty	common.h	/^	sem_t *ss_empty;$/;"	m	struct:analy_parm_s
+ss_empty	common.h	/^	sem_t *ss_empty;$/;"	m	struct:connser_thread_s
+ss_empty	common.h	/^	sem_t *ss_empty;$/;"	m	struct:event_parm_s
+ss_empty	common.h	/^	sem_t *ss_empty;$/;"	m	struct:thread_param_s
+ss_empty	connserver.c	/^sem_t *ss_empty;$/;"	v
+st	common.h	/^	START_POINT *st;$/;"	m	struct:event_parm_s
+start_point_st	common.h	/^typedef struct start_point_st{$/;"	s
+status	common.h	/^	int status;$/;"	m	struct:http_response_s
+str	trie.h	/^	char *str;$/;"	m	struct:trieTree
+t	common.h	/^	HTTP_RES *t;$/;"	m	struct:event_parm_s
+thread_param_s	common.h	/^typedef struct thread_param_s{$/;"	s
+threadpool	threadpool.h	/^typedef void *threadpool;$/;"	t
+threads	threadpool.c	/^	pthread_t *threads;	\/\/pointer to threads$/;"	m	struct:_threadpool_st	file:
+trans	analysis.c	/^char* trans(char *baseurl,char *url) {$/;"	f
+trie	trie.c	/^void trie(FILE *pool,FILE *check,FILE *result) {$/;"	f
+trieTree	trie.h	/^struct trieTree{$/;"	s
+trie_add	trie.c	/^int trie_add(TRIE **head,char *str) {$/;"	f
+trie_check	trie.c	/^int trie_check(TRIE **head,char *str) {$/;"	f
+trie_create	trie.c	/^TRIE* trie_create(){$/;"	f
+trie_destroy	trie.c	/^void trie_destroy(TRIE **head) {$/;"	f
+trie_mutex	common.h	/^	pthread_mutex_t *trie_mutex;$/;"	m	struct:analy_parm_s
+trimString	trie.c	/^int trimString(char *c){$/;"	f
+true	trie.h	7;"	d
+tv	libtest.c	/^struct timeval tv;$/;"	v	typeref:struct:timeval
+url	common.h	/^	char *url;$/;"	m	struct:analy_parm_s
+url	common.h	/^	char *url;$/;"	m	struct:url_req_s
+url	common.h	/^	char *url[300];$/;"	m	struct:url_rsp_s
+url_req_s	common.h	/^typedef struct url_req_s{$/;"	s
+url_rsp_s	common.h	/^typedef struct url_rsp_s{$/;"	s
+work_st	threadpool.c	/^typedef struct work_st{$/;"	s	file:
+work_t	threadpool.c	/^} work_t;$/;"	t	typeref:struct:work_st	file:
+wr_file	common.h	/^	FILE *wr_file;	$/;"	m	struct:connser_thread_s
+wr_file	common.h	/^	FILE *wr_file;$/;"	m	struct:event_parm_s
+write_to_server	connserver.c	/^int write_to_server(struct bufferevent *bev , int sock , HTTP_RES *res,char *ip,int port,pthread_mutex_t *nn_mutex) {$/;"	f
