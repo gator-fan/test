@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  analysis.c
- *
- *    Description:  
- *
- *        Version:  1.0
- *        Created:  2014年10月26日 18时50分32秒
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  qhsong (), 
- *   Organization:  
- *
- * =====================================================================================
- */
 #include<assert.h>
 #include<malloc.h>
 #include<stdlib.h>
@@ -214,8 +197,8 @@ void analy(void *arg){
 						int sendback = nn_send(nn_sock,&buf,NN_MSG,NN_DONTWAIT);
 						if(sendback < 0){
 							//printf("%s send failed!,error is :%s,errno is %d %d",outurl,nn_strerror(nn_errno()),nn_errno(),EAGAIN);
-							enter(ap->qu,buf);
-							printf("%s is enter the qu|length is %d\n",outurl,ap->qu->length);
+							enQueue(ap->qu,buf);
+							printf("%s is enter the queue|length is %d\n",outurl,ap->qu->length);
 						}else{
 							int icount=0;
 							while(ap->qu->length != 0 && sendback > 0 && icount!=300 ){
@@ -225,7 +208,7 @@ void analy(void *arg){
 								printf("send %s,%d|length:%d\n",(char *)buf,sendback,ap->qu->length);
 							}
 							if(sendback < 0) {
-								enter(ap->qu,buf);
+								enQueue(ap->qu,buf);
 								printf("re queue:%s|length:%d\n",(char*)buf,ap->qu->length);
 							}
 						}

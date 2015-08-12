@@ -1,0 +1,15 @@
+setup.py
+./__init__.py
+./frontend.so
+./main.py
+./generate/__init__.py
+./generate/t_cpp_context.py
+./generate/t_cpp_generator.py
+./generate/t_generator.py
+./generate/t_output.py
+./generate/t_output_aggregator.py
+thrift_py.egg-info/PKG-INFO
+thrift_py.egg-info/SOURCES.txt
+thrift_py.egg-info/dependency_links.txt
+thrift_py.egg-info/not-zip-safe
+thrift_py.egg-info/top_level.txt

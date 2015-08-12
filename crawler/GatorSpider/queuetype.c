@@ -11,7 +11,7 @@ void initQueue(QueueType *q,int size) {
 	pthread_mutex_init(&(q->mutex),NULL);
 }
 
-void enter(QueueType *q, void *x) {
+void enQueue(QueueType *q, void *x) {
 	pthread_mutex_lock(&(q->mutex));	
 	if(q->front == -1 && ((q->rear + 1)==q->size)){
 		printf("Queue is full!\n");
