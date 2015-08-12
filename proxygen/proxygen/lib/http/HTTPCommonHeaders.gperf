@@ -1,0 +1,144 @@
+%{
+// Copyright 2004-present Facebook.  All rights reserved.
+
+#include "proxygen/lib/http/HTTPCommonHeaders.h"
+
+#include <cstring>
+
+#include <glog/logging.h>
+
+namespace proxygen {
+
+%}
+
+%language=C++
+%compare-lengths
+%ignore-case
+%struct-type
+%readonly-tables
+%global-table
+%enum
+%define class-name HTTPCommonHeadersInternal
+
+struct HTTPCommonHeaderName { const char* name; uint8_t code; };
+
+
+
+
+
+/* the following is a placeholder for the build script to generate a list
+ * of enum values from the list in HTTPCommonHeaders.txt
+ */
+%%
+Accept, HTTP_HEADER_ACCEPT
+Accept-Charset, HTTP_HEADER_ACCEPT_CHARSET
+Accept-Datetime, HTTP_HEADER_ACCEPT_DATETIME
+Accept-Encoding, HTTP_HEADER_ACCEPT_ENCODING
+Accept-Language, HTTP_HEADER_ACCEPT_LANGUAGE
+Accept-Ranges, HTTP_HEADER_ACCEPT_RANGES
+Access-Control-Allow-Credentials, HTTP_HEADER_ACCESS_CONTROL_ALLOW_CREDENTIALS
+Access-Control-Allow-Headers, HTTP_HEADER_ACCESS_CONTROL_ALLOW_HEADERS
+Access-Control-Allow-Methods, HTTP_HEADER_ACCESS_CONTROL_ALLOW_METHODS
+Access-Control-Allow-Origin, HTTP_HEADER_ACCESS_CONTROL_ALLOW_ORIGIN
+Access-Control-Expose-Headers, HTTP_HEADER_ACCESS_CONTROL_EXPOSE_HEADERS
+Access-Control-Max-Age, HTTP_HEADER_ACCESS_CONTROL_MAX_AGE
+Access-Control-Request-Headers, HTTP_HEADER_ACCESS_CONTROL_REQUEST_HEADERS
+Access-Control-Request-Method, HTTP_HEADER_ACCESS_CONTROL_REQUEST_METHOD
+Age, HTTP_HEADER_AGE
+Allow, HTTP_HEADER_ALLOW
+Authorization, HTTP_HEADER_AUTHORIZATION
+Cache-Control, HTTP_HEADER_CACHE_CONTROL
+Connection, HTTP_HEADER_CONNECTION
+Content-Disposition, HTTP_HEADER_CONTENT_DISPOSITION
+Content-Encoding, HTTP_HEADER_CONTENT_ENCODING
+Content-Language, HTTP_HEADER_CONTENT_LANGUAGE
+Content-Length, HTTP_HEADER_CONTENT_LENGTH
+Content-Location, HTTP_HEADER_CONTENT_LOCATION
+Content-MD5, HTTP_HEADER_CONTENT_MD5
+Content-Range, HTTP_HEADER_CONTENT_RANGE
+Content-Type, HTTP_HEADER_CONTENT_TYPE
+Cookie, HTTP_HEADER_COOKIE
+DNT, HTTP_HEADER_DNT
+Date, HTTP_HEADER_DATE
+ETag, HTTP_HEADER_ETAG
+Expect, HTTP_HEADER_EXPECT
+Expires, HTTP_HEADER_EXPIRES
+From, HTTP_HEADER_FROM
+Front-End-Https, HTTP_HEADER_FRONT_END_HTTPS
+Host, HTTP_HEADER_HOST
+If-Match, HTTP_HEADER_IF_MATCH
+If-Modified-Since, HTTP_HEADER_IF_MODIFIED_SINCE
+If-None-Match, HTTP_HEADER_IF_NONE_MATCH
+If-Range, HTTP_HEADER_IF_RANGE
+If-Unmodified-Since, HTTP_HEADER_IF_UNMODIFIED_SINCE
+Keep-Alive, HTTP_HEADER_KEEP_ALIVE
+Last-Modified, HTTP_HEADER_LAST_MODIFIED
+Link, HTTP_HEADER_LINK
+Location, HTTP_HEADER_LOCATION
+Max-Forwards, HTTP_HEADER_MAX_FORWARDS
+Origin, HTTP_HEADER_ORIGIN
+P3P, HTTP_HEADER_P3P
+Pragma, HTTP_HEADER_PRAGMA
+Proxy-Authenticate, HTTP_HEADER_PROXY_AUTHENTICATE
+Proxy-Authorization, HTTP_HEADER_PROXY_AUTHORIZATION
+Proxy-Connection, HTTP_HEADER_PROXY_CONNECTION
+Range, HTTP_HEADER_RANGE
+Referer, HTTP_HEADER_REFERER
+Refresh, HTTP_HEADER_REFRESH
+Retry-After, HTTP_HEADER_RETRY_AFTER
+Server, HTTP_HEADER_SERVER
+Set-Cookie, HTTP_HEADER_SET_COOKIE
+Strict-Transport-Security, HTTP_HEADER_STRICT_TRANSPORT_SECURITY
+TE, HTTP_HEADER_TE
+Timestamp, HTTP_HEADER_TIMESTAMP
+Trailer, HTTP_HEADER_TRAILER
+Transfer-Encoding, HTTP_HEADER_TRANSFER_ENCODING
+Upgrade, HTTP_HEADER_UPGRADE
+User-Agent, HTTP_HEADER_USER_AGENT
+VIP, HTTP_HEADER_VIP
+Vary, HTTP_HEADER_VARY
+Via, HTTP_HEADER_VIA
+WWW-Authenticate, HTTP_HEADER_WWW_AUTHENTICATE
+Warning, HTTP_HEADER_WARNING
+X-Accel-Redirect, HTTP_HEADER_X_ACCEL_REDIRECT
+X-Content-Security-Policy-Report-Only, HTTP_HEADER_X_CONTENT_SECURITY_POLICY_REPORT_ONLY
+X-Content-Type-Options, HTTP_HEADER_X_CONTENT_TYPE_OPTIONS
+X-Forwarded-For, HTTP_HEADER_X_FORWARDED_FOR
+X-Forwarded-Proto, HTTP_HEADER_X_FORWARDED_PROTO
+X-Frame-Options, HTTP_HEADER_X_FRAME_OPTIONS
+X-Powered-By, HTTP_HEADER_X_POWERED_BY
+X-Real-IP, HTTP_HEADER_X_REAL_IP
+X-Requested-With, HTTP_HEADER_X_REQUESTED_WITH
+X-UA-Compatible, HTTP_HEADER_X_UA_COMPATIBLE
+X-Wap-Profile, HTTP_HEADER_X_WAP_PROFILE
+X-XSS-Protection, HTTP_HEADER_X_XSS_PROTECTION
+%%
+
+
+
+
+HTTPHeaderCode HTTPCommonHeaders::hash(const char* name, size_t len) {
+  const HTTPCommonHeaderName* match =
+    HTTPCommonHeadersInternal::in_word_set(name, len);
+  return (match == nullptr) ? HTTP_HEADER_OTHER : HTTPHeaderCode(match->code);
+}
+
+std::string* HTTPCommonHeaders::headerNames_;
+
+void HTTPCommonHeaders::initHeaderNames() {
+  DCHECK_LE(MAX_HASH_VALUE, 255);
+  headerNames_ = new std::string[256];
+  for (int j = MIN_HASH_VALUE; j <= MAX_HASH_VALUE; ++j) {
+    uint8_t code = wordlist[j].code;
+    const uint8_t OFFSET = 2; // first 2 values are reserved for special cases
+    if (code >= OFFSET && code < TOTAL_KEYWORDS + OFFSET
+                       && wordlist[j].name[0] != '\0') {
+      DCHECK_EQ(headerNames_[code], std::string());
+      // this would mean a duplicate header code in the .gperf file
+
+      headerNames_[code] = wordlist[j].name;
+    }
+  }
+}
+
+} // proxygen
