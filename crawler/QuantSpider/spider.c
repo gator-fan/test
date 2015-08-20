@@ -83,6 +83,7 @@ void putlinks2queue(char *links[], int count)
 		pretreatLink(links[i]);
 		if (links[i] == NULL)
 			continue;
+    printf("===fan===link is %s, h is %s, r is %s\n", links[i], h, r);
 		getHRfromlink(links[i], h, r);
 		//printf("h=%s\tr=%s\n",h,r);
 		if (bloomDomain(h)) {	/*domain exist*/

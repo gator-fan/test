@@ -136,7 +136,7 @@ void *recvResponse(void *argument)
 		} else if (n == 0) {	/*Read http response finished*/
 			break;
 		} else {	/*read again*/
-			//printf("read from socket:|%s|\n",buf);
+			printf("read from socket:|%s|\n",buf);
 			write(htmlfd, buf, n);
 			ll = extractLink(buf, url->domain);
 		}
