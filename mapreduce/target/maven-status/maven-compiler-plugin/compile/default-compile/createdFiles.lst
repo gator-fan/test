@@ -1,0 +1,5 @@
+com/mediav/sessionlog/SessionLogParquetReducer.class
+com/mediav/sessionlog/SessionLogParquetDriver.class
+com/mediav/sessionlog/SessionLogParquetMapper.class
+com/mediav/sessionlog/SessionLogParquetCombine.class
+com/mediav/sessionlog/SessionLogParquetReducer$log_type_count.class

@@ -1,0 +1,4 @@
+/home/fanwang/test/mapreduce/hadooptutorial/src/main/java/com/mediav/sessionlog/SessionLogParquetCombine.java
+/home/fanwang/test/mapreduce/hadooptutorial/src/main/java/com/mediav/sessionlog/SessionLogParquetDriver.java
+/home/fanwang/test/mapreduce/hadooptutorial/src/main/java/com/mediav/sessionlog/SessionLogParquetMapper.java
+/home/fanwang/test/mapreduce/hadooptutorial/src/main/java/com/mediav/sessionlog/SessionLogParquetReducer.java
