@@ -1,60 +1,61 @@
-/*************************************************************************
- * @File Name: nextPerm.cpp
- * @Author: wangfan
- * @Mail: wangfan@mvad.com 
- * @Created Time: 2015年08月01日 星期六 20时31分05秒
- ************************************************************************/
-
 #include <iostream>
+#include <algorithm>
 #include <vector>
 #include <iterator>
-#include <stack>
 
 using namespace std;
 
-int search(vector<int>& v, int left, int right, int target)
+void swap(int &a, int &b)
 {
-  while(left < right)
-  {
-    int middle = (left+right)/2;
-    if(v[middle] <= target) right = middle - 1;
-    else left = middle;
-  }
-  if(v[left] <= target) return -1;
-  else return left;
+	int tmp = a;
+	a = b;
+	b = tmp;
 }
 
-template<typename T>
-void swap(T & a, T & b)
+void nextPerm(vector<int>& num, int N)
 {
-  T tmp = a;
-  a = b;
-  b = a;
+	int pivot = -1;
+	for(int i = N - 1; i > 0; i--)
+	{
+		if(num[i] > num[i-1])	
+		{
+			//pivot = i - 1;	
+			pivot = i ;	
+			//break;
+		}
+	}
+	//cout << "pivot is " << pivot << endl;
+	if(pivot >= 0 )
+	{
+		int i;
+		for(i = N - 1; i > pivot; i--)
+		{
+			if(num[i] > num[pivot])
+			{
+				cout << "i is " << i << endl;
+				swap(num[i], num[pivot]);
+	copy(num.begin(), num.end(), ostream_iterator<int>(cout, " "));
+	cout << endl;
+				sort(num.begin()+pivot+1, num.end());
+	copy(num.begin(), num.end(), ostream_iterator<int>(cout, " "));
+	cout << endl;
+				return;
+			}
+		}
+	}
+	else
+	{
+		sort(num.begin(), num.end());
+	}
 }
 
-template<typename T>
-void reverse(T left, T right)
+int main()
 {
-  typedef typename iterator_traits<T>::value_type Type;
-  if(left < right)
-  {
-    swap<T>(left, right);
-  }
-}
+	vector<int> a = {1, 2, 5, 4, 3};
+	//swap(a[1], a[4]);
 
-void nextPerm(vector<int>& num)
-{
-  typedef typename iterator_traits<num.begin()>::value_type Type;
-  for(int i = num.size() - 2; i >= 0; --i)
-  {
-    int index = search(num, i+1, num.size(), num[i]);
-    if(index != -1)
-    {
-      swap<Type>(num[index], num[i]);
-      reverse(num.begin()+i+1, num.end());
-      return;
-    }
-  }
-  reverse(num.begin(), num.end());
-}
+	nextPerm(a, 5);
+	copy(a.begin(), a.end(), ostream_iterator<int>(cout, " "));
+	cout << endl;
 
+}
