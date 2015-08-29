@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BuildPart	product.cpp	/^ProductPart *BuildPart(){$/;"	f
+BuildPartA	builder.cpp	/^void ConcreteBuilder::BuildPartA(const string& buildPara){$/;"	f	class:ConcreteBuilder
+BuildPartB	builder.cpp	/^void ConcreteBuilder::BuildPartB(const string& buildPara){$/;"	f	class:ConcreteBuilder
+BuildPartC	builder.cpp	/^void ConcreteBuilder::BuildPartC(const string& buildPara){$/;"	f	class:ConcreteBuilder
+Builder	builder.cpp	/^Builder::Builder(){$/;"	f	class:Builder
+Builder	builder.h	/^class Builder{$/;"	c
+ConcreteBuilder	builder.cpp	/^ConcreteBuilder::ConcreteBuilder(){$/;"	f	class:ConcreteBuilder
+ConcreteBuilder	builder.h	/^class ConcreteBuilder:public Builder{$/;"	c
+Construct	director.cpp	/^void Director::Construct(){$/;"	f	class:Director
+Director	director.cpp	/^Director::Director(Builder* bld){$/;"	f	class:Director
+Director	director.h	/^class Director {$/;"	c
+GetProduct	builder.cpp	/^Product * ConcreteBuilder::GetProduct(){$/;"	f	class:ConcreteBuilder
+ProducePart	product.cpp	/^void Product::ProducePart(){$/;"	f	class:Product
+Product	product.cpp	/^Product::Product(){$/;"	f	class:Product
+Product	product.h	/^class Product{$/;"	c
+ProductPart	product.cpp	/^ProductPart::ProductPart(){$/;"	f	class:ProductPart
+ProductPart	product.h	/^class ProductPart{$/;"	c
+_BUILDER_H_	builder.h	2;"	d
+_DIRECTOR_H_	director.h	2;"	d
+_PRODUCT_H_	product.h	2;"	d
+_bld	director.h	/^		Builder *_bld;$/;"	m	class:Director
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+~Builder	builder.cpp	/^Builder::~Builder(){$/;"	f	class:Builder
+~ConcreteBuilder	builder.cpp	/^ConcreteBuilder::~ConcreteBuilder(){$/;"	f	class:ConcreteBuilder
+~Director	director.cpp	/^Director::~Director(){$/;"	f	class:Director
+~Product	product.cpp	/^Product::~Product(){$/;"	f	class:Product
+~ProductPart	product.cpp	/^ProductPart::~ProductPart(){$/;"	f	class:ProductPart
